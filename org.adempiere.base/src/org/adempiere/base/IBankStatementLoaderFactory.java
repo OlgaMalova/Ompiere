@@ -16,7 +16,7 @@ package org.adempiere.base;
 import org.compiere.impexp.BankStatementLoaderInterface;
 
 /**
- * Factory Interface for plugins to connect to the iDempiere core and provide a
+ * Factory Interface for plugins to connect to the Ompiere core and provide a
  * way to load BankStatement lines. This can be used e.g. by a HBCI importer
  * plugin or just by a plugin to connect via csv or a webservice (or whatever)
  * to your bank.

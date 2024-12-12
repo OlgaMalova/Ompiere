@@ -1,9 +1,9 @@
 SET SQLBLANKLINES ON
 SET DEFINE OFF
 
--- IDEMPIERE-3930 Allow permission control for idempiereMonitor and OSGI console
+-- IDEMPIERE-3930 Allow permission control for ompiereMonitor and OSGI console
 -- Mar 25, 2019, 12:20:18 PM BRT
-INSERT INTO AD_Form (AD_Form_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,Name,Description,Classname,AccessLevel,EntityType,IsBetaFunctionality,AD_Form_UU) VALUES (200011,0,0,'Y',TO_DATE('2019-03-25 12:20:17','YYYY-MM-DD HH24:MI:SS'),100,TO_DATE('2019-03-25 12:20:17','YYYY-MM-DD HH24:MI:SS'),100,'idempiereMonitor','Form to configure access to /idempiereMonitor - do not add to menu','/idempiereMonitor','4','D','N','3406efc3-aa1d-4212-bb5d-6d64ee39cc61')
+INSERT INTO AD_Form (AD_Form_ID,AD_Client_ID,AD_Org_ID,IsActive,Created,CreatedBy,Updated,UpdatedBy,Name,Description,Classname,AccessLevel,EntityType,IsBetaFunctionality,AD_Form_UU) VALUES (200011,0,0,'Y',TO_DATE('2019-03-25 12:20:17','YYYY-MM-DD HH24:MI:SS'),100,TO_DATE('2019-03-25 12:20:17','YYYY-MM-DD HH24:MI:SS'),100,'ompiereMonitor','Form to configure access to /ompiereMonitor - do not add to menu','/ompiereMonitor','4','D','N','3406efc3-aa1d-4212-bb5d-6d64ee39cc61')
 ;
 
 -- Mar 25, 2019, 12:21:15 PM BRT

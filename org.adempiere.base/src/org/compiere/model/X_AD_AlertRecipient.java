@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -22,7 +22,7 @@ import java.util.Properties;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Model for AD_AlertRecipient
- *  @author iDempiere (generated)
+ *  @author Ompiere (generated)
  *  @version Release 11 - $Id$ */
 @org.adempiere.base.Model(table="AD_AlertRecipient")
 public class X_AD_AlertRecipient extends PO implements I_AD_AlertRecipient, I_Persistent
@@ -112,7 +112,7 @@ public class X_AD_AlertRecipient extends PO implements I_AD_AlertRecipient, I_Pe
 	}
 
 	/** Set Alert.
-		@param AD_Alert_ID iDempiere Alert
+		@param AD_Alert_ID Ompiere Alert
 	*/
 	public void setAD_Alert_ID (int AD_Alert_ID)
 	{
@@ -123,7 +123,7 @@ public class X_AD_AlertRecipient extends PO implements I_AD_AlertRecipient, I_Pe
 	}
 
 	/** Get Alert.
-		@return iDempiere Alert
+		@return Ompiere Alert
 	  */
 	public int getAD_Alert_ID()
 	{

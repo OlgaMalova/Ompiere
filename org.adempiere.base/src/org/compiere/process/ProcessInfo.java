@@ -1228,7 +1228,7 @@ public class ProcessInfo implements Serializable
 				.first();
 
 		if (lastServerSession == null) {
-			logger.severe("There is no 'Server' record in AD_Session, this can indicate that the server plugin didn't start correctly.  Please verify, this can affect scheduled processes, idempiereMonitor, etc.");
+			logger.severe("There is no 'Server' record in AD_Session, this can indicate that the server plugin didn't start correctly.  Please verify, this can affect scheduled processes, ompiereMonitor, etc.");
 			return null;
 		}
 		return lastServerSession.getCreated();

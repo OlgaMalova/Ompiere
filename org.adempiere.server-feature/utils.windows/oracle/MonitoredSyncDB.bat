@@ -1,4 +1,4 @@
-@Echo	Synchronize iDempiere Database
+@Echo	Synchronize Ompiere Database
 
 @Rem 
 @Echo Upgrading database %1@%ADEMPIERE_DB_NAME%

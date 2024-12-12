@@ -3,7 +3,7 @@
 	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	   version="4.0">
-	<display-name>iDempiere Root</display-name>
+	<display-name>Ompiere Root</display-name>
 	<description></description>
 	<context-param>
 		<param-name>ServerRoot</param-name>
@@ -14,16 +14,16 @@
 		<param-value>ROOT_SESSIONID</param-value>
 	</context-param> 
 	<filter>
-		<display-name>iDempiere Monitor Filter</display-name>
-		<filter-name>idempiereMonitorFilter</filter-name>
+		<display-name>Ompiere Monitor Filter</display-name>
+		<filter-name>ompiereMonitorFilter</filter-name>
 		<filter-class>org.compiere.web.AdempiereMonitorFilter</filter-class>
 	</filter>
 	<filter-mapping>
-		<filter-name>idempiereMonitorFilter</filter-name>
-		<url-pattern>/idempiereMonitor/*</url-pattern>
+		<filter-name>ompiereMonitorFilter</filter-name>
+		<url-pattern>/ompiereMonitor/*</url-pattern>
 	</filter-mapping>
 	<servlet>
-		<servlet-name>idempiereMonitor</servlet-name>
+		<servlet-name>ompiereMonitor</servlet-name>
 		<servlet-class>org.compiere.web.AdempiereMonitor</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
@@ -44,8 +44,8 @@
 		<url-pattern>/oauth2/callback</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
-		<servlet-name>idempiereMonitor</servlet-name>
-		<url-pattern>/idempiereMonitor/*</url-pattern>
+		<servlet-name>ompiereMonitor</servlet-name>
+		<url-pattern>/ompiereMonitor/*</url-pattern>
 	</servlet-mapping>
 	<session-config>
 		<session-timeout>15</session-timeout>
@@ -53,7 +53,7 @@
 	<security-constraint>
 		<web-resource-collection>
 			<web-resource-name>admin</web-resource-name>
-			<url-pattern>/idempiereMonitor/*</url-pattern>
+			<url-pattern>/ompiereMonitor/*</url-pattern>
 		</web-resource-collection>
 		<web-resource-collection>
 			<web-resource-name>service</web-resource-name>

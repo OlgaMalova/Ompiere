@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo	iDempiere PostgreSQL Database Export
+echo	Ompiere PostgreSQL Database Export
 
 # $Id: DBExport.sh,v 1.3 2005/01/22 21:59:15 jjanke Exp $
 

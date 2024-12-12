@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -21,8 +21,8 @@
  **********************************************************************/
 
 /**
- * Provide classes and interface for iDempiere process. <br/>
- * Provide implementation of iDempiere core processes. 
+ * Provide classes and interface for Ompiere process. <br/>
+ * Provide implementation of Ompiere core processes. 
  * @see org.adempiere.process
  * @see org.idempiere.process
  */

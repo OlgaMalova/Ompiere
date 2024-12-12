@@ -488,7 +488,7 @@ public final class DB
 	/**
 	 *  Get Database Adapter.<br/>
 	 *  Access to database specific functionality.
-	 *  @return iDempiere Database Adapter
+	 *  @return Ompiere Database Adapter
 	 */
 	public static AdempiereDatabase getDatabase()
 	{
@@ -502,7 +502,7 @@ public final class DB
 	 *  Get Database Adapter.<br/>
 	 *  Access to database specific functionality.
 	 *  @param URL JDBC connection url
-	 *  @return iDempiere Database Adapter
+	 *  @return Ompiere Database Adapter
 	 */
 	public static AdempiereDatabase getDatabase(String URL)
 	{

@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 2012 Trek Global                                             *
  * This program is free software; you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -101,7 +101,7 @@ public class AttachmentDBSystem implements IAttachmentStore
 		ZipOutputStream zip = new ZipOutputStream(out);
 		zip.setMethod(ZipOutputStream.DEFLATED);
 		zip.setLevel(Deflater.BEST_COMPRESSION);
-		zip.setComment("iDempiere");
+		zip.setComment("Ompiere");
 		//
 		try
 		{

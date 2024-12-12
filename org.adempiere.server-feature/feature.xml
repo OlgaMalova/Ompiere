@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.adempiere.server.feature"
-      label="iDempiere Server"
+      label="Ompiere Server"
       version="12.0.0.qualifier"
-      provider-name="iDempiere Community">
+      provider-name="Ompiere Community">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]

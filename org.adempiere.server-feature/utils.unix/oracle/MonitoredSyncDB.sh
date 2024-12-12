@@ -29,7 +29,7 @@
 #    When executed again on a clean environment, or applied in production, the script automatically applies the fixes and continue
 #
 
-echo Synchronize iDempiere Database
+echo Synchronize Ompiere Database
 
 echo Upgrading database "$1@$ADEMPIERE_DB_NAME"
 

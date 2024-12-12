@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: iDempiere Server
+Bundle-Name: Ompiere Server
 Bundle-SymbolicName: org.adempiere.server;singleton:=true
 Bundle-Version: 12.0.0.qualifier
 Require-Bundle: org.adempiere.base;bundle-version="12.0.0",
@@ -35,5 +35,5 @@ Bundle-ActivationPolicy: lazy
 Service-Component: OSGI-INF/*.xml
 Bundle-Activator: org.adempiere.server.AdempiereServerActivator
 Automatic-Module-Name: org.adempiere.server
-Bundle-Vendor: iDempiere Community
+Bundle-Vendor: Ompiere Community
 

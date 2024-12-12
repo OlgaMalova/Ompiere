@@ -1,5 +1,5 @@
 /*
-Theme Name: iDempiere Theme
+Theme Name: Ompiere Theme
 Version: 2.0
 Description: White Template
 Author: BMLaurus
@@ -266,6 +266,9 @@ div.body{
     font-size: 60%;
 	text-align: right;
 }
+    #footercopyright + #footercopyright {
+        top: 27px; /* Adjust this value to control the vertical spacing */
+    }
 
 #socialBar img{
 	filter:alpha(opacity=80);

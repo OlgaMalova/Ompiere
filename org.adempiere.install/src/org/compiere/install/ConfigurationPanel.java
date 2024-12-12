@@ -220,7 +220,7 @@ public class ConfigurationPanel extends JPanel implements ActionListener, IDBCon
 		fKeyStore.setText("");
 		okKeyStore.setEnabled(false);
 
-		sectionLabel = new JLabel("iDempiere");
+		sectionLabel = new JLabel("Ompiere");
 		sectionLabel.setForeground(titledBorder.getTitleColor());
 		separator = new JSeparator();
 		this.add(sectionLabel,    new GridBagConstraints(0, 4, 7, 1, 0.0, 0.0

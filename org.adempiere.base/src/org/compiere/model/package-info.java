@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -21,8 +21,8 @@
  **********************************************************************/
 
 /**
- * This is the package that contains the majority of iDempiere's generated model class and interface.<br/>
- * Provide majority of iDempiere's extended model class (M*). <br/>
- * Provide interface and classes for some iDempiere core service (PO, AD Window, callout, lookup, attachment storage, image storage, background service, etc).
+ * This is the package that contains the majority of Ompiere's generated model class and interface.<br/>
+ * Provide majority of Ompiere's extended model class (M*). <br/>
+ * Provide interface and classes for some Ompiere core service (PO, AD Window, callout, lookup, attachment storage, image storage, background service, etc).
  */
 package org.compiere.model;

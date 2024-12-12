@@ -1,6 +1,6 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
- * Copyright (C) 2011-2012 iDempiere Open Source ERP All Rights Reserved.     *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
+ * Copyright (C) 2011-2012 Ompiere Open Source ERP All Rights Reserved.     *
  * This program is free software; you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
  * by the Free Software Foundation. This program is distributed in the hope   *

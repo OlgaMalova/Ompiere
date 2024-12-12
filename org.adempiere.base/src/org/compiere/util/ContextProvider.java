@@ -19,7 +19,7 @@ package org.compiere.util;
 import java.util.Properties;
 
 /**
- * Interface for iDempiere environment context provider
+ * Interface for Ompiere environment context provider
  * @author Low Heng Sin
  */
 public interface ContextProvider {

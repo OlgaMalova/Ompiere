@@ -170,7 +170,7 @@ public class ModelClassGenerator
 		createImports(start);
 		//	Class
 		start.append("/** Generated Model for ").append(tableName).append(NL)
-			 .append(" *  @author iDempiere (generated)").append(NL)
+			 .append(" *  @author Ompiere (generated)").append(NL)
 			 .append(" *  @version ").append(Adempiere.MAIN_VERSION).append(" - $Id$ */").append(NL)
 			 .append("@org.adempiere.base.Model(table=\"").append(tableName).append("\")").append(NL)
 			 .append("public class ").append(className)

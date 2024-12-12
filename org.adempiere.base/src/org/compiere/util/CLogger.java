@@ -21,7 +21,7 @@ import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
 /**
- *	iDempiere Logger
+ *	Ompiere Logger
  *
  *  @author Jorg Janke
  *  @version $Id: CLogger.java,v 1.3 2006/08/09 16:38:47 jjanke Exp $
@@ -108,7 +108,7 @@ public class CLogger extends Logger
     }	//	getLogger
 
     /**
-     * 	Get default iDempiere Logger.
+     * 	Get default Ompiere Logger.
      *	@return logger
      */
     public static CLogger get()

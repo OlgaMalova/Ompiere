@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -25,7 +25,7 @@ import org.compiere.util.Env;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Model for Fact_Reconciliation
- *  @author iDempiere (generated)
+ *  @author Ompiere (generated)
  *  @version Release 11 - $Id$ */
 @org.adempiere.base.Model(table="Fact_Reconciliation")
 public class X_Fact_Reconciliation extends PO implements I_Fact_Reconciliation, I_Persistent

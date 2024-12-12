@@ -442,7 +442,7 @@ public final class WebUtil
 		if (cookieProperties != null)
 		{
 			Cookie cookie = new Cookie (WebEnv.COOKIE_INFO, propertiesEncode(cookieProperties));
-			cookie.setComment("(c) iDempiere, Inc - Jorg Janke");
+			cookie.setComment("(c) Ompiere, Inc - Jorg Janke");
 			cookie.setSecure(true);
 			cookie.setPath("/");
 			if (cookieProperties.size() == 0)

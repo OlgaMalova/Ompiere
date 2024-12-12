@@ -28,7 +28,7 @@ import java.util.logging.LogRecord;
 import org.compiere.model.SystemProperties;
 
 /**
- *	iDempiere Log Formatter
+ *	Ompiere Log Formatter
  *	
  *  @author Jorg Janke
  *  @version $Id: CLogFormatter.java,v 1.2 2006/07/30 00:54:36 jjanke Exp $

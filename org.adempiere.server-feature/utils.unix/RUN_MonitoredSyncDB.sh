@@ -6,6 +6,6 @@ if [ "$IDEMPIERE_HOME" ]; then
 fi
 export ID_ENV=Server
 . ./myEnvironment.sh
-echo 	Synchronize iDempiere Database - "$IDEMPIERE_HOME" \("$ADEMPIERE_DB_NAME"\)
+echo 	Synchronize Ompiere Database - "$IDEMPIERE_HOME" \("$ADEMPIERE_DB_NAME"\)
 
 bash "$ADEMPIERE_DB_PATH"/MonitoredSyncDB.sh "$ADEMPIERE_DB_USER" "$ADEMPIERE_DB_PASSWORD" "$ADEMPIERE_DB_PATH" $*

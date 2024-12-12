@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -22,7 +22,7 @@ import java.util.Properties;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Model for AD_Issue
- *  @author iDempiere (generated)
+ *  @author Ompiere (generated)
  *  @version Release 11 - $Id$ */
 @org.adempiere.base.Model(table="AD_Issue")
 public class X_AD_Issue extends PO implements I_AD_Issue, I_Persistent
@@ -720,7 +720,7 @@ public class X_AD_Issue extends PO implements I_AD_Issue, I_Persistent
 	}
 
 	/** Set Request Document No.
-		@param RequestDocumentNo iDempiere Request Document No
+		@param RequestDocumentNo Ompiere Request Document No
 	*/
 	public void setRequestDocumentNo (String RequestDocumentNo)
 	{
@@ -728,7 +728,7 @@ public class X_AD_Issue extends PO implements I_AD_Issue, I_Persistent
 	}
 
 	/** Get Request Document No.
-		@return iDempiere Request Document No
+		@return Ompiere Request Document No
 	  */
 	public String getRequestDocumentNo()
 	{

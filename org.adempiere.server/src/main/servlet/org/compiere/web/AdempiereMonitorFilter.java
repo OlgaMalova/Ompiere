@@ -130,7 +130,7 @@ public class AdempiereMonitorFilter implements Filter
 					if (m_SSOPrincipal != null)
 						m_SSOPrincipal.removePrincipalFromSession(req);
 					if (isRedirectToLoginOnError) {
-						resp.sendRedirect("idempiereMonitor");
+						resp.sendRedirect("ompiereMonitor");
 					} else {
 						resp.setStatus(500);
 						response.setContentType("text/html");
@@ -219,9 +219,9 @@ public class AdempiereMonitorFilter implements Filter
 			log.warning ("User not found: '" + name);
 			return false;
 		}
-		if (!user.isAdministrator() && !user.hasURLFormAccess("/idempiereMonitor"))
+		if (!user.isAdministrator() && !user.hasURLFormAccess("/ompiereMonitor"))
 		{
-			log.warning ("User doesn't have access to /idempiereMonitor = " + name);
+			log.warning ("User doesn't have access to /ompiereMonitor = " + name);
 			return false;
 		}
 		if (log.isLoggable(Level.INFO)) log.info ("Name=" + name);

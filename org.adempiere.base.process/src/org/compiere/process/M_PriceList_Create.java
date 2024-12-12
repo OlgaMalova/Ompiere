@@ -138,7 +138,7 @@ public class M_PriceList_Create extends SvrProcess {
 		/**
 		 *	Make sure that we have only one active product vendor
 		 */
-		/* NOTE iDempiere 7.1 -> anyways the validation on MProductPO.beforeSave doesn't allow this wrong data */ 
+		/* NOTE Ompiere 7.1 -> anyways the validation on MProductPO.beforeSave doesn't allow this wrong data */ 
 		String whereClause = "IsCurrentVendor='Y' AND IsActive='Y'"
 				+ " AND EXISTS (SELECT M_Product_ID FROM M_Product_PO x "
 				+ "WHERE x.M_Product_ID=M_Product_PO.M_Product_ID"

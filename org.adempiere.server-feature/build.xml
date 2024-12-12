@@ -1,5 +1,5 @@
 <!-- ====================================================== -->
-<!-- iDempiere Distribution Setup                            -->
+<!-- Ompiere Distribution Setup                            -->
 <!-- ====================================================== -->
 <!-- $Header: org.adempiere.server-feature/build.xml $-->
 
@@ -18,7 +18,7 @@
 	<target name="setupInit"
 		description="initialization target">
 
-		<echo message="iDempiere Server Setup ===================" />
+		<echo message="Ompiere Server Setup ===================" />
 		<echo message="IDEMPIERE_HOME = ${env.IDEMPIERE_HOME}" />
 
 		<!-- create the time stamp and environment -->
@@ -126,6 +126,6 @@
 	<!-- Setup (Main)                                         -->
 	<!-- ==================================================== -->
 	<target name="setup" depends="setupInit, setupWin, setupNonWin"
-		description="Setup iDempiere">
+		description="Setup Ompiere">
 	</target>
 </project>

@@ -17,7 +17,7 @@
 package org.compiere.util;
 
 /**
- * 	iDempiere System Error. <br/>
+ * 	Ompiere System Error. <br/>
  * 	Error caused by invalid configurations, etc.
  * 	(Not recoverable)
  *	

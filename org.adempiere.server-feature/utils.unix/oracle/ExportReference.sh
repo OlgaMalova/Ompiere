@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo    iDempiere Database Export       "$Revision": 1.5 $
+echo    Ompiere Database Export       "$Revision": 1.5 $
 
 # $Id: ExportReference.sh,v 1.5 2005/12/20 07:12:17 jjanke Exp $
 

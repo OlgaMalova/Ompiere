@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -653,7 +653,7 @@ public class CreateTable extends SvrProcess {
 		wf.setWorkflowType(X_AD_Workflow.WORKFLOWTYPE_DocumentProcess);
 		wf.setAD_Table_ID(table.getAD_Table_ID());
 		wf.setEntityType(p_entityType);
-		wf.setAuthor("iDempiere");
+		wf.setAuthor("Ompiere");
 		wf.saveEx();
 
 		// Nodes

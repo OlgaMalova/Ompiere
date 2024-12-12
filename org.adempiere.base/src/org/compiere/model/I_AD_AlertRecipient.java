@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -21,7 +21,7 @@ import java.sql.Timestamp;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Interface for AD_AlertRecipient
- *  @author iDempiere (generated) 
+ *  @author Ompiere (generated) 
  *  @version Release 11
  */
 public interface I_AD_AlertRecipient 
@@ -45,12 +45,12 @@ public interface I_AD_AlertRecipient
     public static final String COLUMNNAME_AD_Alert_ID = "AD_Alert_ID";
 
 	/** Set Alert.
-	  * iDempiere Alert
+	  * Ompiere Alert
 	  */
 	public void setAD_Alert_ID (int AD_Alert_ID);
 
 	/** Get Alert.
-	  * iDempiere Alert
+	  * Ompiere Alert
 	  */
 	public int getAD_Alert_ID();
 

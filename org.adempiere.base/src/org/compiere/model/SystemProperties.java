@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -28,7 +28,7 @@ import org.compiere.util.Ini;
 import org.compiere.util.SecureInterface;
 
 /**
- * Collection of System properties used in iDempiere
+ * Collection of System properties used in Ompiere
  * 
  * @author Carlos Ruiz - globalqss - bxservice
  */
@@ -102,7 +102,7 @@ public class SystemProperties {
 	}
 
 	/**
-	 * env.IDEMPIERE_HOME to define the home of iDempiere server instance
+	 * env.IDEMPIERE_HOME to define the home of Ompiere server instance
 	 * @return
 	 */
 	public static String getEnvIdempiereHome() {
@@ -110,7 +110,7 @@ public class SystemProperties {
 	}
 
 	/**
-	 * IDEMPIERE_HOME to define the home of iDempiere server instance
+	 * IDEMPIERE_HOME to define the home of Ompiere server instance
 	 * @return
 	 */
 	public static String getIdempiereHome() {
@@ -118,7 +118,7 @@ public class SystemProperties {
 	}
 
 	/**
-	 * IDEMPIERE_HOME to define the home of iDempiere server instance
+	 * IDEMPIERE_HOME to define the home of Ompiere server instance
 	 * @return
 	 */
 	public static String setIdempiereHome(String idempiereHome) {
@@ -269,7 +269,7 @@ public class SystemProperties {
 	}
 
 	/**
-	 * TRACE_NULL_TRX_CONNECTION=true to allow tracing null transactions on idempiereMonitor
+	 * TRACE_NULL_TRX_CONNECTION=true to allow tracing null transactions on ompiereMonitor
 	 * WARNING! this setting can have a big performance impact, it is disabled by default
 	 *   use it with care in production just temporarily to trace problematic connection slowness or leaks
 	 * @return

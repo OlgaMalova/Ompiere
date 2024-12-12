@@ -40,7 +40,7 @@
 # but there are environments that doesn't support setting that variable, so better to be on the safe side
 #
 
-echo Synchronize iDempiere Database
+echo Synchronize Ompiere Database
 
 echo Upgrading database "$1@$ADEMPIERE_DB_NAME"
 

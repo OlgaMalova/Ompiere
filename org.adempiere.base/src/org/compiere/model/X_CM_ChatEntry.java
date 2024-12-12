@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -22,7 +22,7 @@ import java.util.Properties;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Model for CM_ChatEntry
- *  @author iDempiere (generated)
+ *  @author Ompiere (generated)
  *  @version Release 11 - $Id$ */
 @org.adempiere.base.Model(table="CM_ChatEntry")
 public class X_CM_ChatEntry extends PO implements I_CM_ChatEntry, I_Persistent

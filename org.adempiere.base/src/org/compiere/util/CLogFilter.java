@@ -21,7 +21,7 @@ import java.util.logging.Level;
 import java.util.logging.LogRecord;
 
 /**
- *	iDempiere Log Filter
+ *	Ompiere Log Filter
  *	
  *  @author Jorg Janke
  *  @version $Id: CLogFilter.java,v 1.2 2006/07/30 00:54:36 jjanke Exp $

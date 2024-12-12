@@ -87,7 +87,7 @@ public class ModelInterfaceGenerator
 	/** File Header			*/
 	public static final String COPY =
 		 "/******************************************************************************\n"
-		+" * Product: iDempiere ERP & CRM Smart Business Solution                       *\n"
+		+" * Product: Ompiere ERP & CRM Smart Business Solution                       *\n"
 		+" * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *\n"
 		+" * This program is free software, you can redistribute it and/or modify it    *\n"
 		+" * under the terms version 2 of the GNU General Public License as published   *\n"
@@ -196,7 +196,7 @@ public class ModelInterfaceGenerator
 		createImports(start);
 		// Interface
 		start.append("/** Generated Interface for ").append(tableName).append("\n")
-			 .append(" *  @author iDempiere (generated) \n")
+			 .append(" *  @author Ompiere (generated) \n")
 			 .append(" *  @version ").append(Adempiere.MAIN_VERSION).append(NL) //.append(" - ").append(s_run).append("\n")
 			 .append(" */\n");
 		if (!packageName.equals("org.compiere.model")) {

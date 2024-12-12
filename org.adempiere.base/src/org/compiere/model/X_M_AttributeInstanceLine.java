@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -21,7 +21,7 @@ import java.sql.ResultSet;
 import java.util.Properties;
 
 /** Generated Model for M_AttributeInstanceLine
- *  @author iDempiere (generated)
+ *  @author Ompiere (generated)
  *  @version Release 12 - $Id$ */
 @org.adempiere.base.Model(table="M_AttributeInstanceLine")
 public class X_M_AttributeInstanceLine extends PO implements I_M_AttributeInstanceLine, I_Persistent

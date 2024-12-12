@@ -1,8 +1,8 @@
 #!/bin/sh
 
-echo	iDempiere Database Import
+echo	Ompiere Database Import
 
-echo	Importing iDempiere DB from "$IDEMPIERE_HOME"/data/ExpDat.dmp
+echo	Importing Ompiere DB from "$IDEMPIERE_HOME"/data/ExpDat.dmp
 
 if [ $# -le 2 ]
   then

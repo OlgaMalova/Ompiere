@@ -1,5 +1,5 @@
 /**********************************************************************
-* This file is part of iDempiere ERP Open Source                      *
+* This file is part of Ompiere ERP Open Source                      *
 * http://www.idempiere.org                                            *
 *                                                                     *
 * Copyright (C) Contributors                                          *
@@ -118,7 +118,7 @@ public class CacheInfo implements Serializable {
 	}
 
 	/**
-	 * Is cache support distribution to multiple iDempiere node
+	 * Is cache support distribution to multiple Ompiere node
 	 * @return the distributed
 	 */
 	public boolean isDistributed() {

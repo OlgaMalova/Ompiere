@@ -3,7 +3,7 @@ package org.adempiere.base;
 import org.compiere.util.ReplenishInterface;
 
 /**
- * Factory Interface for plugins to connect to the iDempiere core and provide a
+ * Factory Interface for plugins to connect to the Ompiere core and provide a
  * way to load Replication Custom Interface.
  * 
  * @author tsvikruha

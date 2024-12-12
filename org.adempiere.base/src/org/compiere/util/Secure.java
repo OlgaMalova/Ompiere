@@ -120,7 +120,7 @@ public class Secure implements SecureInterface
 	}   //  convertToHexString
 
 	/**
-	 * 	iDempiere Security
+	 * 	Ompiere Security
 	 */
 	public Secure()
 	{

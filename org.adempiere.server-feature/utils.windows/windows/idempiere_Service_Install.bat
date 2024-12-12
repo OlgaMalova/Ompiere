@@ -4,7 +4,7 @@ REM idempiere_Service_Install.bat - globalqss - based on http://javaservice.obje
 
 if (%IDEMPIERE_HOME%) == () (CALL myEnvironment.bat Server) else (CALL %IDEMPIERE_HOME%\utils\myEnvironment.bat Server)
 
-%IDEMPIERE_HOME%\utils\windows\idempiereService.exe -install idempiere "%JAVA_HOME%\jre\bin\server\jvm.dll" -Xmx256M -server %ADEMPIERE_JAVA_OPTIONS% -start idempiere -stop -method systemExit -out "%IDEMPIERE_HOME%\out.txt" -current "%IDEMPIERE_HOME%" -manual -overwrite -description "iDempiere server"
+%IDEMPIERE_HOME%\utils\windows\idempiereService.exe -install idempiere "%JAVA_HOME%\jre\bin\server\jvm.dll" -Xmx256M -server %ADEMPIERE_JAVA_OPTIONS% -start idempiere -stop -method systemExit -out "%IDEMPIERE_HOME%\out.txt" -current "%IDEMPIERE_HOME%" -manual -overwrite -description "Ompiere server"
 
 rem IT DEPENDS ON OTHER SERVICE?
 rem add this option for dependency with postgresql service (replace with proper service name)

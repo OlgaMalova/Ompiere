@@ -48,9 +48,9 @@ public class POWrapper implements InvocationHandler
 {
 	/**
 	 * Create wrapper of type cl for po
-	 * @param <T> iDempiere model interface type
+	 * @param <T> Ompiere model interface type
 	 * @param po
-	 * @param cl iDempiere model interface class
+	 * @param cl Ompiere model interface class
 	 * @return wrapped instance
 	 */
 	@SuppressWarnings("unchecked")

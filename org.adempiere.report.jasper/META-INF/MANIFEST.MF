@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: iDempiere JasperReport integration
+Bundle-Name: Ompiere JasperReport integration
 Bundle-SymbolicName: org.adempiere.report.jasper;singleton:=true
 Bundle-Version: 12.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-17
@@ -26,5 +26,5 @@ Export-Package: org.adempiere.report.jasper
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .
 Automatic-Module-Name: org.adempiere.report.jasper
-Bundle-Vendor: iDempiere Community
+Bundle-Vendor: Ompiere Community
 Bundle-Activator: org.adempiere.report.jasper.Activator

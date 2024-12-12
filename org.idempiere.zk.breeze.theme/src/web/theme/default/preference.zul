@@ -16,7 +16,7 @@
 	
 	Env.setContext(Env.getCtx(), ITheme.ZK_TOOLBAR_BUTTON_SIZE, "24");	
 	/* Set the next variable if you want to control browser title in theme */
-	/* AEnv.getDesktop().getWebApp().setAppName("iDempiere"); */
+	/* AEnv.getDesktop().getWebApp().setAppName("Ompiere"); */
 	Env.setContext(Env.getCtx(), ITheme.USE_CSS_FOR_WINDOW_SIZE, "Y");
 	Env.setContext(Env.getCtx(), ITheme.USE_FONT_ICON_FOR_IMAGE, MSysConfig.getBooleanValue(MSysConfig.ZK_THEME_USE_FONT_ICON_FOR_IMAGE, false));
 	var setZkTheme = "breeze";

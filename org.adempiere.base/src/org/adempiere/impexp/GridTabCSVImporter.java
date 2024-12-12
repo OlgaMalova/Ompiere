@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 2012 Carlos Ruiz                                             *
  * Copyright (C) 2012 Trek Global                                             *
  * This program is free software; you can redistribute it and/or modify it    *

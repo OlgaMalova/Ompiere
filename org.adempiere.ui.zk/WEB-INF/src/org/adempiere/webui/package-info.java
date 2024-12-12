@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -20,7 +20,7 @@
  * MA 02110-1301, USA.                                                 *
  **********************************************************************/
 /**
- * Provide classes for initialization and entry point to iDempiere web client.<br/>
+ * Provide classes for initialization and entry point to Ompiere web client.<br/>
  * Provide entry point for access to UI extensions.
  */
 package org.adempiere.webui;

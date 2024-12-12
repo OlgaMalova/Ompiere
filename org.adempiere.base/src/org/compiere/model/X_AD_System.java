@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -25,7 +25,7 @@ import org.compiere.util.Env;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Model for AD_System
- *  @author iDempiere (generated)
+ *  @author Ompiere (generated)
  *  @version Release 11 - $Id$ */
 @org.adempiere.base.Model(table="AD_System")
 public class X_AD_System extends PO implements I_AD_System, I_Persistent
@@ -745,7 +745,7 @@ public class X_AD_System extends PO implements I_AD_System, I_Persistent
 	}
 
 	/** Set Support Expires.
-		@param SupportExpDate Date when the iDempiere support expires
+		@param SupportExpDate Date when the Ompiere support expires
 	*/
 	public void setSupportExpDate (Timestamp SupportExpDate)
 	{
@@ -753,7 +753,7 @@ public class X_AD_System extends PO implements I_AD_System, I_Persistent
 	}
 
 	/** Get Support Expires.
-		@return Date when the iDempiere support expires
+		@return Date when the Ompiere support expires
 	  */
 	public Timestamp getSupportExpDate()
 	{
@@ -761,7 +761,7 @@ public class X_AD_System extends PO implements I_AD_System, I_Persistent
 	}
 
 	/** Set Internal Users.
-		@param SupportUnits Number of Internal Users for iDempiere Support
+		@param SupportUnits Number of Internal Users for Ompiere Support
 	*/
 	public void setSupportUnits (int SupportUnits)
 	{
@@ -769,7 +769,7 @@ public class X_AD_System extends PO implements I_AD_System, I_Persistent
 	}
 
 	/** Get Internal Users.
-		@return Number of Internal Users for iDempiere Support
+		@return Number of Internal Users for Ompiere Support
 	  */
 	public int getSupportUnits()
 	{

@@ -1,11 +1,11 @@
 #!/bin/sh
 #
-echo ... Setup iDempiere Server
+echo ... Setup Ompiere Server
 
 # setup application requires getVar.sh to be executable
 find . -name '*.sh' -exec chmod u+x '{}' \;
 
-# Setup idempiere.properties and iDempiereEnv.properties
+# Setup idempiere.properties and OmpiereEnv.properties
 ./idempiere --launcher.ini setup.ini -application org.adempiere.install.application $@
 
 echo ... Setup Jetty

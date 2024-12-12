@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # $Id: DBRestore.sh,v 1.8 2005/12/20 07:12:17 jjanke Exp $
-echo	iDempiere Database Restore 	"$Revision": 1.8 $
+echo	Ompiere Database Restore 	"$Revision": 1.8 $
 
-echo	Restoring iDempiere DB from "$IDEMPIERE_HOME"/data/ExpDat.dmp
+echo	Restoring Ompiere DB from "$IDEMPIERE_HOME"/data/ExpDat.dmp
 
 if [ $# -le 2 ]
   then

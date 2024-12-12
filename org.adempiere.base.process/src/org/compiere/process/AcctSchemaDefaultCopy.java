@@ -279,7 +279,7 @@ public class AcctSchemaDefaultCopy extends SvrProcess
 			addLog(0, null, new BigDecimal(created), "@Created@ @C_BPartner_ID@ @IsVendor@");
 			createdTotal += created;
 		}
-//IDEMPIERE-362 Hide things that don't work on iDempiere
+//IDEMPIERE-362 Hide things that don't work on Ompiere
 		//	Update Warehouse
 		if (p_CopyOverwriteAcct)
 		{
@@ -352,7 +352,7 @@ public class AcctSchemaDefaultCopy extends SvrProcess
 		addLog(0, null, new BigDecimal(created), "@Created@ @C_Project_ID@");
 		createdTotal += created;
 
-//IDEMPIERE-362 Hide things that don't work on iDempiere
+//IDEMPIERE-362 Hide things that don't work on Ompiere
 		//	Update Tax
 		if (p_CopyOverwriteAcct)
 		{

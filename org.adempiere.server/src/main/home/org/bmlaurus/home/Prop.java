@@ -50,13 +50,13 @@ public final class Prop implements Serializable {
 	public static final String	SUPPORTREQ_LINK		=	"SupportRequestLink";
 	public static final String	OPTION_LINK 		=	"OptionLink";
 	public static final String	FELIX_LINK 			=	"FelixLink";
-	public static final String	MONITOR_LINK 		=	"iDempiereMonitorLink";
+	public static final String	MONITOR_LINK 		=	"OmpiereMonitorLink";
 	
 	/** Custom Texts */
 	public static final String OPTION_TEXT 			= "OptionText";
 	public static final String FELIX_TEXT 			= "FelixText";
 	public static final String LOCAL_TEXT			= "LocalSupportText";
-	public static final String MONITOR_TEXT 		= "iDempiereMonitorText";
+	public static final String MONITOR_TEXT 		= "OmpiereMonitorText";
 	public static final String WEBUI_TEXT 			= "WebUiText";
 	public static final String WEBSTORE_TEXT		= "WebStoreText";
 	public static final String SENDREQUEST_TEXT	 	= "SendRequestText";
@@ -70,7 +70,7 @@ public final class Prop implements Serializable {
 	
 	/** Default Links */
 	private static final String	DEF_FELIX_LINK 		=	"osgi/system/console";
-	private static final String	DEF_MONITOR_LINK 	=	"idempiereMonitor";
+	private static final String	DEF_MONITOR_LINK 	=	"ompiereMonitor";
 	private static final String DEF_WEBUI_LINK 		=	"/webui/";
 	private static final String DEF_WEBSTORE_LINK 	=	"/wstore/index.jsp";
 	private static final String	DEF_SENDREQUEST_LINK=	"/wstore/request.jsp";
@@ -91,7 +91,7 @@ public final class Prop implements Serializable {
 	public static final String	SOC_7				=	"Social7";
 	
 	/**Defaults*/
-	private static final String CREDITS				=	"Welcome to the iDempiere 12 Development Build Page!";
+	private static final String CREDITS				=	"Welcome to the Ompiere 12 Development Build Page!";
 	private static String LOGO_URL 					= 	null;
 	
 	
@@ -156,7 +156,7 @@ public final class Prop implements Serializable {
 		if(s_prop.getProperty(TEMPLATE_NAME)==null ||s_prop.getProperty(TEMPLATE_NAME).length()<=0)
 			s_prop.setProperty(TEMPLATE_NAME, "white");
 		if(s_prop.getProperty(CLIENT_NAME)==null||s_prop.getProperty(CLIENT_NAME).length()<=0)
-			s_prop.setProperty(CLIENT_NAME, "iDempiere Server");
+			s_prop.setProperty(CLIENT_NAME, "Ompiere Server");
 		if(s_prop.getProperty(CREDITS_TXT)==null||s_prop.getProperty(CREDITS_TXT).length()<=0)
 			s_prop.setProperty(CREDITS_TXT, CREDITS);
 		//LINKS

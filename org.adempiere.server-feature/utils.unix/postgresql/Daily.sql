@@ -1,8 +1,8 @@
 /*************************************************************************
- * The contents of this file are subject to the iDempiere License.  You may
+ * The contents of this file are subject to the Ompiere License.  You may
  * obtain a copy of the License at    http://www.idempiere.org/license.html
  * Software is on an  "AS IS" basis,  WITHOUT WARRANTY OF ANY KIND, either
- * express or implied. See the License for details. Code: iDempiere ERP+CRM
+ * express or implied. See the License for details. Code: Ompiere ERP+CRM
  * Copyright (C) 1999-2002 Jorg Janke, ComPiere, Inc. All Rights Reserved.
  *************************************************************************
  * $Id: Daily.sql,v 1.1 2006/12/27 globalqss Exp $

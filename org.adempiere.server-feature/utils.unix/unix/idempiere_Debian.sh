@@ -7,8 +7,8 @@
 # Required-Stop:	postgresql
 # Default-Start:	2 3 4 5
 # Default-Stop:		1
-# Short-Description:	iDempiere 1.0.0 server
-# Description:		Provides iDempiere ERP-CRM Server startup and shutdown script. Requires PostgreSQL server.
+# Short-Description:	Ompiere 1.0.0 server
+# Description:		Provides Ompiere ERP-CRM Server startup and shutdown script. Requires PostgreSQL server.
 # FileTarget:	/etc/init.d/idempiere
 # FileOwner:	root.root
 # FilePerms:	0755
@@ -41,10 +41,10 @@ getidempierestatus() {
 start () {
     getidempierestatus
     if [ $IDEMPIERESTATUS -eq 0 ] ; then
-        echo "iDempiere is already running"
+        echo "Ompiere is already running"
         return 1
     fi
-    echo -n "Starting iDempiere ERP: "
+    echo -n "Starting Ompiere ERP: "
     cd $IDEMPIERE_HOME/utils || exit
     export ID_ENV=Server
     . $ENVFILE
@@ -84,10 +84,10 @@ start () {
 stop () {
     getidempierestatus
     if [ $IDEMPIERESTATUS -ne 0 ] ; then
-	  echo "iDempiere is already stopped"
+	  echo "Ompiere is already stopped"
 	  return 1
     fi
-    echo -n "Stopping iDempiere ERP: "
+    echo -n "Stopping Ompiere ERP: "
     cd $IDEMPIERE_HOME/utils || exit
     export ID_ENV=Server
     . $ENVFILE
@@ -136,11 +136,11 @@ status () {
     getidempierestatus
     if [ $IDEMPIERESTATUS -eq 0 ] ; then
 		echo
-		echo "iDempiere is running:"
+		echo "Ompiere is running:"
 		ps ax | grep ${IDEMPIERE_HOME} | grep -v grep | sed 's/^[[:space:]]*\([[:digit:]]*\).*:[[:digit:]][[:digit:]][[:space:]]\(.*\)/\1 \2/'
 		echo
 	    else
-		echo "iDempiere is stopped"
+		echo "Ompiere is stopped"
     fi
 }
 

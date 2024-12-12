@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -21,7 +21,7 @@
  **********************************************************************/
 
 /**
- * One of the package that provide implementation of iDempiere core processes.
+ * One of the package that provide implementation of Ompiere core processes.
  * @see org.compiere.process
  * @see org.idempiere.process
  */

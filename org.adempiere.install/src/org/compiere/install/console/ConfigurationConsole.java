@@ -323,7 +323,7 @@ public class ConfigurationConsole {
 					cn = System.getProperty("user.name");
 				String ou = data.getProperty(ConfigurationData.ADEMPIERE_CERT_ORG_UNIT);
 				if (ou == null)
-					ou = "iDempiereUser";
+					ou = "OmpiereUser";
 				String o = data.getProperty(ConfigurationData.ADEMPIERE_CERT_ORG);
 				if (o == null)
 					o = System.getProperty("user.name");
@@ -390,7 +390,7 @@ public class ConfigurationConsole {
 			String error = data.testAdempiere();
 			if (error != null && error.trim().length() > 0)
 			{
-				writer.println("iDempiere home and keystore validation error: " + error);
+				writer.println("Ompiere home and keystore validation error: " + error);
 				adempiereHome(reader, writer);
 				continue;
 			}
@@ -399,7 +399,7 @@ public class ConfigurationConsole {
 	}
 
 	private void adempiereHome(BufferedReader reader, PrintWriter writer) throws IOException {
-		writer.println("iDempiere Home ["+data.getAdempiereHome()+"]:");
+		writer.println("Ompiere Home ["+data.getAdempiereHome()+"]:");
 		String input = reader.readLine();
 		if (input != null && input.trim().length() > 0)
 		{

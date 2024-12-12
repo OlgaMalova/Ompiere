@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: iDempiere 2Pack Handlers
+Bundle-Name: Ompiere 2Pack Handlers
 Bundle-SymbolicName: org.adempiere.pipo.handlers;singleton:=true
 Bundle-Version: 12.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-17
@@ -9,4 +9,4 @@ Require-Bundle: org.adempiere.pipo;bundle-version="12.0.0",
  org.adempiere.base;bundle-version="12.0.0"
 Bundle-ClassPath: .
 Automatic-Module-Name: org.adempiere.pipo.handlers
-Bundle-Vendor: iDempiere Community
+Bundle-Vendor: Ompiere Community

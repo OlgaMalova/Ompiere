@@ -33,7 +33,7 @@ public class ALoginRes_fr extends ListResourceBundle
 	{
 	{ "Connection",             "Connexion" },
 	{ "Defaults",               "D\u00E9fauts" },
-	{ "Login",                  "Login iDempiere" },
+	{ "Login",                  "Login Ompiere" },
 	{ "File",                   "Fichier" },
 	{ "Exit",                   "Sortir" },
 	{ "Help",                   "Aide" },

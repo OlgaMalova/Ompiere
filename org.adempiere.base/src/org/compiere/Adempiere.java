@@ -54,7 +54,7 @@ import org.eclipse.core.runtime.Platform;
 import org.osgi.framework.Bundle;
 
 /**
- *  Static methods for iDempiere startup, system info and global thread pool.
+ *  Static methods for Ompiere startup, system info and global thread pool.
  *
  *  @author Jorg Janke
  */
@@ -71,7 +71,7 @@ public final class Adempiere
 	static public String	DB_VERSION		= "2023-12-24";
 
 	/** Product Name            */
-	static public final String	NAME 			= "iDempiere\u00AE";
+	static public final String	NAME 			= "Ompiere\u00AE";
 	/** URL of Product          */
 	static public final String	URL				= "www.idempiere.org";
 	/** 16*16 Product Image. **/
@@ -81,8 +81,8 @@ public final class Adempiere
 	/** 100*30 Product Image.  	*/
 	static private final String	s_file100x30	= "images/iD10030.png";
 	/** 48*15 Product Image.   	*/
-	static private final String	s_file48x15		= "images/iDempiere.png";
-	static private final String	s_file48x15HR	= "images/iDempiereHR.png";
+	static private final String	s_file48x15		= "images/Ompiere.png";
+	static private final String	s_file48x15HR	= "images/OmpiereHR.png";
 	/** Header Logo				*/
 	static private final String	s_fileHeaderLogo= "images/header-logo.png";
 	/** Support Email           */
@@ -90,8 +90,8 @@ public final class Adempiere
 
 	/** Subtitle                */
 	static public final String	SUB_TITLE		= "Smart Suite ERP, CRM and SCM";
-	static public final String	ADEMPIERE_R		= "iDempiere\u00AE";
-	static public final String	COPYRIGHT		= "\u00A9 1999-2024 iDempiere\u00AE";
+	static public final String	ADEMPIERE_R		= "Ompiere\u00AE";
+	static public final String	COPYRIGHT		= "\u00A9 1999-2024 Ompiere\u00AE";
 
 	static private String		s_ImplementationVersion = null;
 	static private String		s_ImplementationVendor = null;
@@ -184,7 +184,7 @@ public final class Adempiere
 	}
 
 	/**
-	 * @return true if iDempiere AD version should be shown to user
+	 * @return true if Ompiere AD version should be shown to user
 	 */
 	public static boolean isDBVersionShown(){
 		boolean defaultVal = MSystem.get(Env.getCtx()).getSystemStatus().equalsIgnoreCase("P") ? false : true;
@@ -224,7 +224,7 @@ public final class Adempiere
 	}
 
 	/**
-	 * @return version of iDempiere AD
+	 * @return version of Ompiere AD
 	 */
 	public static String getDatabaseVersion() 
 	{
@@ -273,8 +273,8 @@ public final class Adempiere
 		s_ImplementationVersion = adempierePackage.getImplementationVersion();
 		if (s_ImplementationVendor == null)
 		{
-			s_ImplementationVendor = "Supported by iDempiere community";
-			s_ImplementationVersion = "iDempiere";
+			s_ImplementationVendor = "Supported by Ompiere community";
+			s_ImplementationVersion = "Ompiere";
 		}
 	}	//	setPackageInfo
 

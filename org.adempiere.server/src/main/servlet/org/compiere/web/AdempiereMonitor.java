@@ -223,12 +223,12 @@ public class AdempiereMonitor extends HttpServlet
 			return false;
 		}
 		
-		WebDoc doc = WebDoc.create ("iDempiere Server Monitor Log");
+		WebDoc doc = WebDoc.create ("Ompiere Server Monitor Log");
 		//	Body
 		body b = doc.getBody();
 		//
 		p para = new p();
-		a link = new a ("idempiereMonitor#" + serverID, "Return");
+		a link = new a ("ompiereMonitor#" + serverID, "Return");
 		para.addElement(link);
 		b.addElement(para);
 		//
@@ -657,7 +657,7 @@ public class AdempiereMonitor extends HttpServlet
 	private void createSummaryPage (HttpServletRequest request, HttpServletResponse response,boolean refresh)
 		throws ServletException, IOException
 	{
-		WebDoc doc = WebDoc.create ("iDempiere Server Monitor");
+		WebDoc doc = WebDoc.create ("Ompiere Server Monitor");
 	//	log.info("ServletConfig=" + getServletConfig());
 		AdempiereServerGroup.get().dump();
 
@@ -741,7 +741,7 @@ public class AdempiereMonitor extends HttpServlet
 						{					
 							nodeBuilder.append(" (").append(address.getCanonicalHostName()).append(")");
 						}
-						a link = new a ("idempiereMonitor?NodeInfo="+member.getId(), nodeBuilder.toString());
+						a link = new a ("ompiereMonitor?NodeInfo="+member.getId(), nodeBuilder.toString());
 						para.addElement(link);
 					}					
 				}
@@ -751,16 +751,16 @@ public class AdempiereMonitor extends HttpServlet
 		}
 		//
 		p para = new p();
-		a link = new a ("idempiereMonitor?Action=Start_All", "Start All");
+		a link = new a ("ompiereMonitor?Action=Start_All", "Start All");
 		para.addElement(link);
 		para.addElement(" - ");
-		link = new a ("idempiereMonitor?Action=Stop_All", "Stop All");
+		link = new a ("ompiereMonitor?Action=Stop_All", "Stop All");
 		para.addElement(link);
 		para.addElement(" - ");
-		link = new a ("idempiereMonitor?Action=Reload", "Reload");
+		link = new a ("ompiereMonitor?Action=Reload", "Reload");
 		para.addElement(link);
 		para.addElement(" - ");
-		link = new a ("idempiereMonitor", "Refresh");
+		link = new a ("ompiereMonitor", "Refresh");
 		para.addElement(link);
 		bb.addElement(para);
 		
@@ -826,7 +826,7 @@ public class AdempiereMonitor extends HttpServlet
 			if (server.isStarted())
 			{
 				String msg = "Stop";
-				link = new a ("idempiereMonitor?Action=Stop_" + server.getServerId(), msg);
+				link = new a ("ompiereMonitor?Action=Stop_" + server.getServerId(), msg);
 				if (server.isSleeping())
 				{
 					line.addElement(new th().addElement("Sleeping"));
@@ -847,7 +847,7 @@ public class AdempiereMonitor extends HttpServlet
 			{
 				String msg = "Start";
 				line.addElement(new th().addElement("Not Started"));
-				link = new a ("idempiereMonitor?Action=Start_" + server.getServerId(), msg);
+				link = new a ("ompiereMonitor?Action=Start_" + server.getServerId(), msg);
 				line.addElement(new td().addElement(link));
 			}
 			table.addElement(line);
@@ -871,7 +871,7 @@ public class AdempiereMonitor extends HttpServlet
 			td td = new td();
 			td.addElement(WebEnv.getCellContent(formatTimestampWithTimeZone(server.getModel().getAD_Client_ID(), server.getModel().getDateNextRun(false))));
 			td.addElement(" - ");
-			link = new a ("idempiereMonitor?RunNow=" + server.getServerId(), "(Run Now)");
+			link = new a ("ompiereMonitor?RunNow=" + server.getServerId(), "(Run Now)");
 			td.addElement(link);
 			line.addElement(td);
 			table.addElement(line);
@@ -907,10 +907,10 @@ public class AdempiereMonitor extends HttpServlet
 			link = new a ("#top", "Top");
 			bb.addElement(link);
 			bb.addElement(" - ");
-			link = new a ("idempiereMonitor?Log=" + server.getServerId(), "Log");
+			link = new a ("ompiereMonitor?Log=" + server.getServerId(), "Log");
 			bb.addElement(link);
 			bb.addElement(" - ");
-			link = new a ("idempiereMonitor", "Refresh");
+			link = new a ("ompiereMonitor", "Refresh");
 			bb.addElement(link);
 		}
 
@@ -1162,16 +1162,16 @@ public class AdempiereMonitor extends HttpServlet
 		line = new tr();
 		line.addElement(new th().addElement(CacheMgt.get().toStringX()));
 		p cachePara = new p();
-		cachePara.addElement(new a ("idempiereMonitor?CacheReset=Yes", "Reset Cache"))
+		cachePara.addElement(new a ("ompiereMonitor?CacheReset=Yes", "Reset Cache"))
 			.addElement(" - ")				
-			.addElement(new a ("idempiereMonitor?CacheDetails=Yes", "Cache Details"));
+			.addElement(new a ("ompiereMonitor?CacheDetails=Yes", "Cache Details"));
 		line.addElement(new td().addElement(cachePara));
 		table.addElement(line);
 		
 		//	Trace Level
 		line = new tr();
 		line.addElement(new th().addElement(new label("TraceLevel").addElement("Trace Log Level")));
-		form myForm = new form("idempiereMonitor", form.METHOD_POST, form.ENC_DEFAULT);
+		form myForm = new form("ompiereMonitor", form.METHOD_POST, form.ENC_DEFAULT);
 		//	LogLevel Selection
 		option[] options = new option[CLogMgt.LEVELS.length];
 		for (int i = 0; i < options.length; i++) 
@@ -1189,14 +1189,14 @@ public class AdempiereMonitor extends HttpServlet
 		//
 		line = new tr();
 		line.addElement(new th().addElement("Trace File"));
-		line.addElement(new td().addElement(new a ("idempiereMonitor?Trace=" + systemInfo.getCurrentLogFile(), "Current", "Current", "Current")));
+		line.addElement(new td().addElement(new a ("ompiereMonitor?Trace=" + systemInfo.getCurrentLogFile(), "Current", "Current", "Current")));
 		table.addElement(line);
 		//
 		line = new tr();
 		p tlp = new p();
-		tlp.addElement(new a ("idempiereMonitor?Trace=ROTATE", "Rotate Trace Log"))
+		tlp.addElement(new a ("ompiereMonitor?Trace=ROTATE", "Rotate Trace Log"))
 		   .addElement(" - ")
-		   .addElement(new a ("idempiereMonitor?Trace=DELETE", "Delete all Trace Logs"));
+		   .addElement(new a ("ompiereMonitor?Trace=DELETE", "Delete all Trace Logs"));
 		line.addElement(new th());
 		line.addElement(new td().addElement(tlp));
 		table.addElement(line);
@@ -1218,7 +1218,7 @@ public class AdempiereMonitor extends HttpServlet
 			int index = fileName.lastIndexOf(File.separator);
 			if (index > 1)
 				displayName = fileName.substring(index+1);
-			a link = new a ("idempiereMonitor?Trace=" + fileName, displayName, displayName, displayName);
+			a link = new a ("ompiereMonitor?Trace=" + fileName, displayName, displayName, displayName);
 			p.addElement(link);
 			int size = (int)(logFile.getFileSize()/1024);
 			if (size < 1024)
@@ -1245,7 +1245,7 @@ public class AdempiereMonitor extends HttpServlet
 				continue;
 			if (i > 0)
 				p.addElement(" - ");
-			p.addElement(new a("idempiereMonitor?EMail=" + client.getAD_Client_ID(), client.getName()));
+			p.addElement(new a("ompiereMonitor?EMail=" + client.getAD_Client_ID(), client.getName()));
 		}
 		if (clients.length == 0)
 			p.addElement("&nbsp;");
@@ -1452,7 +1452,7 @@ public class AdempiereMonitor extends HttpServlet
 	 */
 	public String getServletInfo ()
 	{
-		return "iDempiere Server Monitor";
+		return "Ompiere Server Monitor";
 	}	//	getServletName
 
 	private static final String s_dirAccessFileName = "dirAccess.txt";
@@ -1533,12 +1533,12 @@ public class AdempiereMonitor extends HttpServlet
 		if (cmd == null || cmd.length() == 0)
 			return false;
 		
-		WebDoc doc = WebDoc.create ("iDempiere Server Cache Details");
+		WebDoc doc = WebDoc.create ("Ompiere Server Cache Details");
 		//	Body
 		body b = doc.getBody();
 		//
 		p para = new p();
-		a link = new a ("idempiereMonitor", "Return");
+		a link = new a ("ompiereMonitor", "Return");
 		para.addElement(link);
 		b.addElement(para);
 		//
@@ -1637,7 +1637,7 @@ public class AdempiereMonitor extends HttpServlet
 		//	Body
 		body b = doc.getBody();
 		p para = new p();		
-		a link = new a ("idempiereMonitor", "Return");
+		a link = new a ("ompiereMonitor", "Return");
 		para.addElement(link);
 		b.addElement(para);
 		
@@ -1746,7 +1746,7 @@ public class AdempiereMonitor extends HttpServlet
 		//	Trace Level
 		line = new tr();
 		line.addElement(new th().addElement(new label("TraceLevel").addElement("Trace Log Level")));
-		form myForm = new form("idempiereMonitor", form.METHOD_POST, form.ENC_DEFAULT);
+		form myForm = new form("ompiereMonitor", form.METHOD_POST, form.ENC_DEFAULT);
 		//	LogLevel Selection
 		option[] options = new option[CLogMgt.LEVELS.length];
 		for (int i = 0; i < options.length; i++) 
@@ -1765,15 +1765,15 @@ public class AdempiereMonitor extends HttpServlet
 		//
 		line = new tr();
 		line.addElement(new th().addElement("Trace File"));
-		line.addElement(new td().addElement(new a ("idempiereMonitor?Trace=" + systemInfo.getCurrentLogFile()
+		line.addElement(new td().addElement(new a ("ompiereMonitor?Trace=" + systemInfo.getCurrentLogFile()
 			 + "&nodeId=" + nodeId, "Current")));
 		table.addElement(line);
 		//
 		line = new tr();
 		p tlp = new p();
-		tlp.addElement(new a ("idempiereMonitor?Trace=ROTATE&nodeId="+nodeId, "Rotate Trace Log"))
+		tlp.addElement(new a ("ompiereMonitor?Trace=ROTATE&nodeId="+nodeId, "Rotate Trace Log"))
 		  .addElement(" - ")
-		  .addElement(new a ("idempiereMonitor?Trace=DELETE&nodeId="+nodeId, "Delete all Trace Logs"));
+		  .addElement(new a ("ompiereMonitor?Trace=DELETE&nodeId="+nodeId, "Delete all Trace Logs"));
 		line.addElement(new th());
 		line.addElement(new td().addElement(tlp));
 		table.addElement(line);
@@ -1790,7 +1790,7 @@ public class AdempiereMonitor extends HttpServlet
 			if (logFile != logFiles[0])
 				p.addElement(" - ");
 			String fileName = logFile.getFileName();
-			a link = new a ("idempiereMonitor?Trace=" + fileName + "&nodeId="+nodeId, fileName);
+			a link = new a ("ompiereMonitor?Trace=" + fileName + "&nodeId="+nodeId, fileName);
 			p.addElement(link);
 			int size = (int)(logFile.getFileSize()/1024);
 			if (size < 1024)

@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: iDempiere 2Pack Core
+Bundle-Name: Ompiere 2Pack Core
 Bundle-SymbolicName: org.adempiere.pipo;singleton:=true
 Bundle-Version: 12.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-17
@@ -20,5 +20,5 @@ Service-Component: OSGI-INF/*.xml
 Bundle-Activator: org.adempiere.plugin.utils.PackInApplicationActivator
 Bundle-ClassPath: .
 Automatic-Module-Name: org.adempiere.pipo
-Bundle-Vendor: iDempiere Community
+Bundle-Vendor: Ompiere Community
 Bundle-ActivationPolicy: lazy

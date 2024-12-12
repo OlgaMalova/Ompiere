@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -21,10 +21,10 @@
  **********************************************************************/
 
 /**
- * One of the package that provide extended model class for iDempiere core tables.<br/>
+ * One of the package that provide extended model class for Ompiere core tables.<br/>
  * Provide generic PO implementation that doesn't use generated model class.<br/>
  * Provide interface for tax provider, shipment processor, zoom provider and address validation.<br/>
- * Provide iDempiere model interface (I_*) wrapper for PO and GridTab.<br/>
+ * Provide Ompiere model interface (I_*) wrapper for PO and GridTab.<br/>
  * Provide implementation of order promotion rule and zoom across targets.
  * @see org.compiere.model
  */

@@ -72,7 +72,7 @@ public class FolderBrowser extends Window implements EventListener<Event>
 	}
 
 	/**
-	 * @param rootPath Optional root folder. If null, take ZK_ROOT_FOLDER_BROWSER from AD_SysConfig or iDempiere home as root folder.
+	 * @param rootPath Optional root folder. If null, take ZK_ROOT_FOLDER_BROWSER from AD_SysConfig or Ompiere home as root folder.
 	 * @param browseForFolder true for folder browser, false for file.
 	 */
 	public FolderBrowser(String rootPath, boolean browseForFolder)

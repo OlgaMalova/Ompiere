@@ -10,7 +10,7 @@
     var caretTimeoutId, ua = navigator.userAgent, iPhone = /iphone/i.test(ua), chrome = /chrome/i.test(ua), android = /android/i.test(ua);
     $.mask = {
         definitions: {
-	/* iDempiere VFormat */
+	/* Ompiere VFormat */
          "0":"[0-9]",
          "9":"[ 0-9]",
          a:"[A-Za-z0-9]",
@@ -21,7 +21,7 @@
          L:"[A-Z]",
          o:"[ A-Za-z]",
          O:"[ A-Z]",
-         U:"[^a-z]" /* adding a new iDempiere format to allow any character except lowercases - useful to force company names in uppercase */
+         U:"[^a-z]" /* adding a new Ompiere format to allow any character except lowercases - useful to force company names in uppercase */
         },
         autoclear: !0,
         dataName: "rawMaskFn",

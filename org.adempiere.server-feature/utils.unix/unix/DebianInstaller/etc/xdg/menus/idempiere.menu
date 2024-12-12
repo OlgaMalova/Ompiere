@@ -1,6 +1,6 @@
-    <!-- iDempiere ERP -->
+    <!-- Ompiere ERP -->
     <Menu>
-       <Name>iDempiere ERP</Name>
+       <Name>Ompiere ERP</Name>
        <Directory>idempiere.directory</Directory>
        <NotDeleted/>
        <Include>
@@ -20,4 +20,4 @@
 	    </Include>
       </Menu>
     </Menu>
-    <!-- End of iDempiere -->
+    <!-- End of Ompiere -->

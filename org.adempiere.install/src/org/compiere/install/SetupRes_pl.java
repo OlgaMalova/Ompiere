@@ -28,16 +28,16 @@ public class SetupRes_pl extends ListResourceBundle
 {
 	/**	Translation Info	*/
 	static final Object[][] contents = new String[][]{
-	{ "AdempiereServerSetup", "Konfiguracja serwera iDempiere" },
+	{ "AdempiereServerSetup", "Konfiguracja serwera Ompiere" },
 	{ "Ok", 				"Ok" },
 	{ "File", 				"Plik" },
 	{ "Exit", 				"Wyj\u015bcie" },
 	{ "Help", 				"Pomoc" },
 	{ "PleaseCheck", 		"Prosz\u0119 sprawdzi\u0107" },
-	{ "UnableToConnect",	"Nie mo\u017cna po\u0142\u0105czy\u0107 si\u0119 ze stron\u0105 iDempiere w celu uzyskania pomocy" },
+	{ "UnableToConnect",	"Nie mo\u017cna po\u0142\u0105czy\u0107 si\u0119 ze stron\u0105 Ompiere w celu uzyskania pomocy" },
 
-	{ "AdempiereHomeInfo", 	"Folder iDempiere jest folderem g\u0142\u00f3wnym" },
-	{ "AdempiereHome", 		"Folder iDempiere" },
+	{ "AdempiereHomeInfo", 	"Folder Ompiere jest folderem g\u0142\u00f3wnym" },
+	{ "AdempiereHome", 		"Folder Ompiere" },
 	{ "WebPortInfo", 		"Web (HTML) Port" },
 	{ "WebPort", 			"Web Port" },
 	{ "AppsServerInfo", 	"Nazwa serwera aplikacji" },
@@ -48,9 +48,9 @@ public class SetupRes_pl extends ListResourceBundle
 	{ "DatabaseName", 		"Nazwa bazy danych (SID)" },
 	{ "DatabasePortInfo", 	"Port listenera bazy danych" },
 	{ "DatabasePort", 		"Port bazy danych" },
-	{ "DatabaseUserInfo", 	"U\u017cytkownik iDempiere w bazie danych" },
+	{ "DatabaseUserInfo", 	"U\u017cytkownik Ompiere w bazie danych" },
 	{ "DatabaseUser", 		"U\u017cytkownik bazy" },
-	{ "DatabasePasswordInfo", "Has\u0142o u\u017cytkownika iDempiere" },
+	{ "DatabasePasswordInfo", "Has\u0142o u\u017cytkownika Ompiere" },
 	{ "DatabasePassword", 	"Has\u0142o u\u017cytkownika" },
 	{ "TNSNameInfo", 		"TNS lub Globalna Nazwa Bazy (dla Oracle)" },
 	{ "TNSName", 			"Nazwa TNS" },
@@ -58,7 +58,7 @@ public class SetupRes_pl extends ListResourceBundle
 	{ "SystemPassword", 	"Has\u0142o System" },
 	{ "MailServerInfo", 	"Serwer pocztowy" },
 	{ "MailServer", 		"Serwer pocztowy" },
-	{ "AdminEMailInfo", 	"Adres email administartora iDempiere" },
+	{ "AdminEMailInfo", 	"Adres email administartora Ompiere" },
 	{ "AdminEMail", 		"EMail administ." },
 	{ "DatabaseServerInfo", "Nazwa serwera bazy danych" },
 	{ "DatabaseServer", 	"Serwer bazy danych" },
@@ -66,9 +66,9 @@ public class SetupRes_pl extends ListResourceBundle
 	{ "JavaHome", 			"Folder Javy" },
 	{ "JNPPortInfo", 		"Application Server JNP Port" },
 	{ "JNPPort", 			"JNP Port" },
-	{ "MailUserInfo", 		"U\u017cytkownik poczty dla cel\u00f3w administracyjnych iDempiere" },
+	{ "MailUserInfo", 		"U\u017cytkownik poczty dla cel\u00f3w administracyjnych Ompiere" },
 	{ "MailUser", 			"U\u017cytkownik poczty" },
-	{ "MailPasswordInfo", 	"Has\u0142o dla konta pocztowego iDempiere" },
+	{ "MailPasswordInfo", 	"Has\u0142o dla konta pocztowego Ompiere" },
 	{ "MailPassword", 		"Has\u0142o poczty" },
 	{ "KeyStorePassword",		"Key Store Password" },
 	{ "KeyStorePasswordInfo",	"Password for SSL Key Store" },
@@ -89,7 +89,7 @@ public class SetupRes_pl extends ListResourceBundle
 
 	{ "ServerError", 		"B\u0142\u0119dne ustawienia" },
 	{ "ErrorJavaHome", 		"Niepoprawny folder Javy" },
-	{ "ErrorAdempiereHome", 	"Nie stwierdzono zainstalowanego systemu iDempiere w miescu wskazanym jako Folder iDempiere" },
+	{ "ErrorAdempiereHome", 	"Nie stwierdzono zainstalowanego systemu Ompiere w miescu wskazanym jako Folder Ompiere" },
 	{ "ErrorAppsServer", 	"Niepoprawny serwer aplikacji" },
 	{ "ErrorWebPort", 		"Niepoprawny port WWW (by\u0107 mo\u017ce inna aplikacja u\u017cywa ju\u017c tego portu)" },
 	{ "ErrorJNPPort", 		"Niepoprawny port JNP (by\u0107 mo\u017ce inna aplikacja u\u017cywa ju\u017c tego portu)" },
@@ -103,7 +103,7 @@ public class SetupRes_pl extends ListResourceBundle
 
 	{ "EnvironmentSaved",	"Ustawienia zapisany\nMusisz ponownie uruchomi\u0107 serwer." },
 	{ "RMIoverHTTP", 		"Tunelowanie RMI over HTTP" },
-	{ "RMIoverHTTPInfo", 	"Tunelowanie RMI over HTTP pozwala u\u017cywa\u0107 iDempiere przez firewall" }
+	{ "RMIoverHTTPInfo", 	"Tunelowanie RMI over HTTP pozwala u\u017cywa\u0107 Ompiere przez firewall" }
 	};
 
 	/**

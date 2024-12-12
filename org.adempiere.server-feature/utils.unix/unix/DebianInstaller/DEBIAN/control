@@ -7,6 +7,6 @@ Pre-Depends: openjdk-17-jdk-headless, postgresql-16|postgresql-15|postgresql-14|
 Suggests: firefox
 Installed-Size: 968668
 Maintainer: Carlos Ruiz  <carg67@gmail.com>
-Description: iDempiere ERP
-             iDempiere Business Suite ERP/CRM/SCM
+Description: Ompiere ERP
+             Ompiere Business Suite ERP/CRM/SCM
 Homepage: http://www.idempiere.org/

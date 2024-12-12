@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 2012 Carlos Ruiz                							  *
  * This program is free software; you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -338,7 +338,7 @@ public class MImportTemplate extends X_AD_ImportTemplate implements ImmutablePOS
 					if (! cellType.equals(CellType.BLANK)) { // blank cells are not processed - write them just as empty strings
 
 						if (cellType.equals(CellType.BOOLEAN)) {
-							// boolean cells are converted to Y/N iDempiere notation
+							// boolean cells are converted to Y/N Ompiere notation
 							if (cell.getBooleanCellValue())
 								bw.append("Y");
 							else

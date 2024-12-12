@@ -669,7 +669,7 @@ public class ConfigurationData
 			EMail email = new EMail (new Properties(),
 					mailServer.getHostName (),
 					admail, admail,
-					"iDempiere Server Setup Test",
+					"Ompiere Server Setup Test",
 					msg.toString());
 			email.createAuthenticator (mailUser, mailPassword);
 			if (EMail.SENT_OK.equals (email.send ()))

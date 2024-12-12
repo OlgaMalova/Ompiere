@@ -14,7 +14,7 @@ package org.adempiere.base;
 import org.compiere.impexp.BankStatementMatcherInterface;
 
 /**
- * Factory Interface for plugins to connect to the iDempiere core and provide a
+ * Factory Interface for plugins to connect to the Ompiere core and provide a
  * way to match Bank statements
  * 
  * @author tsvikruha, inspired by tbayen IBankStatementLoaderFactory

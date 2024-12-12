@@ -18,7 +18,7 @@ package org.adempiere.base;
 
 /**
  * Interface for dynamic discovery of services.<br/>
- * This is the primary entry point for iDempiere service discovery.
+ * This is the primary entry point for Ompiere service discovery.
  * 
  * @author viola
  *

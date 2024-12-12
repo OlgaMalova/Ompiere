@@ -25,7 +25,7 @@ import org.compiere.wf.MWFActivity;
  * @date November 20, 2008
  * 
  * Contributors:
- * CarlosRuiz - globalqss - Add unprocessed button to iDempiere
+ * CarlosRuiz - globalqss - Add unprocessed button to Ompiere
  * 
  * 
  * Contributors: 

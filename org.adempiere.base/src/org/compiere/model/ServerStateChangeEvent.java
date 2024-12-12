@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -24,7 +24,7 @@ package org.compiere.model;
 import java.util.EventObject;
 
 /**
- * Event for the start up and shutdown of iDempiere server instance. 
+ * Event for the start up and shutdown of Ompiere server instance. 
  */
 public class ServerStateChangeEvent extends EventObject {
 

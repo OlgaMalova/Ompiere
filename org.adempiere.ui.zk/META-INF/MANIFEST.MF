@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: iDempiere Web Client
+Bundle-Name: Ompiere Web Client
 Bundle-SymbolicName: org.adempiere.ui.zk;singleton:=true
 Bundle-Version: 12.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-17
@@ -223,4 +223,4 @@ Jetty-Environment: ee8
 Service-Component: OSGI-INF/*.xml
 Bundle-ActivationPolicy: lazy
 Automatic-Module-Name: org.adempiere.ui.zk
-Bundle-Vendor: iDempiere Community
+Bundle-Vendor: Ompiere Community

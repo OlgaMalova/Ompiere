@@ -29,7 +29,7 @@ import org.zkoss.zk.ui.Page;
 import org.zkoss.zk.ui.event.EventQueue;
 
 /**
- * Interface for iDempiere desktop
+ * Interface for Ompiere desktop
  * @author hengsin
  */
 public interface IDesktop extends UIPart {

@@ -1,7 +1,7 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 2012 Heng Sin Low                							  *
- * Copyright (C) 2012 www.iDempiere.org                							  *
+ * Copyright (C) 2012 www.Ompiere.org                							  *
  * This program is free software; you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
  * by the Free Software Foundation. This program is distributed in the hope   *

@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -21,6 +21,6 @@
  **********************************************************************/
 
 /**
- * Provide implementation for iDempiere financial report writer
+ * Provide implementation for Ompiere financial report writer
  */
 package org.compiere.report;

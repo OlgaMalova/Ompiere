@@ -833,7 +833,7 @@ public class MSequence extends X_AD_Sequence
 	/**	Start Number			*/
 	public static final int		INIT_NO = 1000000;	//	1M
 	/**	Start System Number		*/
-	public static final int		INIT_SYS_NO = 200000;   // start number for iDempiere
+	public static final int		INIT_SYS_NO = 200000;   // start number for Ompiere
 	/** Static Logger			*/
 	private static CLogger 		s_log = CLogger.getCLogger(MSequence.class);
 

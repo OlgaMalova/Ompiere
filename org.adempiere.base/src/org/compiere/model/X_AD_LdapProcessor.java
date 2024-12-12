@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -23,7 +23,7 @@ import java.util.Properties;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Model for AD_LdapProcessor
- *  @author iDempiere (generated)
+ *  @author Ompiere (generated)
  *  @version Release 11 - $Id$ */
 @org.adempiere.base.Model(table="AD_LdapProcessor")
 public class X_AD_LdapProcessor extends PO implements I_AD_LdapProcessor, I_Persistent
@@ -127,7 +127,7 @@ public class X_AD_LdapProcessor extends PO implements I_AD_LdapProcessor, I_Pers
     }
 
 	/** Set Ldap Processor.
-		@param AD_LdapProcessor_ID LDAP Server to authenticate and authorize external systems based on iDempiere
+		@param AD_LdapProcessor_ID LDAP Server to authenticate and authorize external systems based on Ompiere
 	*/
 	public void setAD_LdapProcessor_ID (int AD_LdapProcessor_ID)
 	{
@@ -138,7 +138,7 @@ public class X_AD_LdapProcessor extends PO implements I_AD_LdapProcessor, I_Pers
 	}
 
 	/** Get Ldap Processor.
-		@return LDAP Server to authenticate and authorize external systems based on iDempiere
+		@return LDAP Server to authenticate and authorize external systems based on Ompiere
 	  */
 	public int getAD_LdapProcessor_ID()
 	{

@@ -1,8 +1,8 @@
 <%@ page import="org.bmlaurus.home.Prop" %>
 <!--
-Theme Name: iDempiere Theme
+Theme Name: Ompiere Theme
 Version: 2.0
-Description: iDempiere Theme
+Description: Ompiere Theme
 Author: BMLaurus
 Author URI: http://www.bmlaurus.com
 -->
@@ -33,7 +33,7 @@ Author URI: http://www.bmlaurus.com
 					<img name="img_felix" src="<%=Prop.getImage("img_felix.png")%>" border="0" title="<%=Prop.getProperty(Prop.FELIX_TEXT)%>"/>
 				</a>
 				<a id="ServerManagement" href="<%=Prop.getProperty(Prop.MONITOR_LINK)%>">
-					<img name="img_idempiereMonitor" src="<%=Prop.getImage("img_idempiereMonitor.png")%>" border="0" title="<%=Prop.getProperty(Prop.MONITOR_TEXT)%>"/>
+					<img name="img_ompiereMonitor" src="<%=Prop.getImage("img_ompiereMonitor.png")%>" border="0" title="<%=Prop.getProperty(Prop.MONITOR_TEXT)%>"/>
 				</a>
 			</div>
 		</div>
@@ -133,6 +133,11 @@ Author URI: http://www.bmlaurus.com
 				<p><a href="http://www.gnu.org/licenses/gpl-2.0.html" target="blank">iDempiere License is GPLv2</a></p>
 				<%=Prop.getProperty(Prop.COPYRIGHT_TXT)%>
 			</div>
+    <div id="footercopyright">
+        <p>&copy; Copyright 2024-<%=Prop.getYear()%> Ompiere - All rights reserved</p>
+	<p><a href="http://www.gnu.org/licenses/gpl-2.0.html" target="_blank">Ompiere License is GPLv2</a></p>
+        <%=Prop.getProperty(Prop.COPYRIGHT_TXT)%>
+    </div>
 		</div>
 	</div>	
 	<script>

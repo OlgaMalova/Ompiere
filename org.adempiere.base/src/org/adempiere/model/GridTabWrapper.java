@@ -28,7 +28,7 @@ import org.compiere.util.CLogger;
 import org.compiere.util.Env;
 
 /**
- * Wrap GridTab to iDempiere Model Interface (i.e. generated interfaces).<br/>
+ * Wrap GridTab to Ompiere Model Interface (i.e. generated interfaces).<br/>
  * Usage example:
  * <pre>
  * I_A_Asset_Disposed bean = GridTabWrapper.create(mTab, I_A_Asset_Disposed.class); 
@@ -44,9 +44,9 @@ public class GridTabWrapper implements InvocationHandler
 	
 	/**
 	 * Create wrapper of type cl for gridTab.
-	 * @param <T> iDempiere Model Interface (i.e. generated I_* interfaces) type
+	 * @param <T> Ompiere Model Interface (i.e. generated I_* interfaces) type
 	 * @param gridTab
-	 * @param cl iDempiere Model Interface (i.e. generated I_* interfaces) class
+	 * @param cl Ompiere Model Interface (i.e. generated I_* interfaces) class
 	 * @return wrapped instance for gridTab
 	 */
 	@SuppressWarnings("unchecked")
@@ -191,7 +191,7 @@ public class GridTabWrapper implements InvocationHandler
 	
 	/**
 	 * @param cl
-	 * @return true if cl is iDempiere model interface
+	 * @return true if cl is Ompiere model interface
 	 */
 	private boolean isModelInterface(Class<?> cl)
 	{

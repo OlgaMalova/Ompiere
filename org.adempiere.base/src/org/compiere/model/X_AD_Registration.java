@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -22,7 +22,7 @@ import java.sql.Timestamp;
 import java.util.Properties;
 
 /** Generated Model for AD_Registration
- *  @author iDempiere (generated)
+ *  @author Ompiere (generated)
  *  @version Release 11 - $Id$ */
 @org.adempiere.base.Model(table="AD_Registration")
 public class X_AD_Registration extends PO implements I_AD_Registration, I_Persistent
@@ -517,7 +517,7 @@ public class X_AD_Registration extends PO implements I_AD_Registration, I_Persis
 	}
 
 	/** Set Start Implementation/Production.
-		@param StartProductionDate The day you started the implementation (if implementing) - or production (went life) with iDempiere
+		@param StartProductionDate The day you started the implementation (if implementing) - or production (went life) with Ompiere
 	*/
 	public void setStartProductionDate (Timestamp StartProductionDate)
 	{
@@ -525,7 +525,7 @@ public class X_AD_Registration extends PO implements I_AD_Registration, I_Persis
 	}
 
 	/** Get Start Implementation/Production.
-		@return The day you started the implementation (if implementing) - or production (went life) with iDempiere
+		@return The day you started the implementation (if implementing) - or production (went life) with Ompiere
 	  */
 	public Timestamp getStartProductionDate()
 	{

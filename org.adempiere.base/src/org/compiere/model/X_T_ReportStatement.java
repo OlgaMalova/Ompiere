@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -25,7 +25,7 @@ import org.compiere.util.Env;
 import org.compiere.util.ValueNamePair;
 
 /** Generated Model for T_ReportStatement
- *  @author iDempiere (generated)
+ *  @author Ompiere (generated)
  *  @version Release 11 - $Id$ */
 @org.adempiere.base.Model(table="T_ReportStatement")
 public class X_T_ReportStatement extends PO implements I_T_ReportStatement, I_Persistent

@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -59,7 +59,7 @@ import org.zkoss.zul.Listitem;
 import org.zkoss.zul.Vbox;
 
 /**
- * A Custom Form to manage plugins in iDempiere
+ * A Custom Form to manage plugins in Ompiere
  *
  * @author Carlos Ruiz - globalqss - bxservice
  *

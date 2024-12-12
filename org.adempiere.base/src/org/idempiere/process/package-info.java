@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -22,6 +22,6 @@
 
 /**
  * Provide mapped process factory implementation.<br/>
- * Provide classes for some iDempiere process.
+ * Provide classes for some Ompiere process.
  */
 package org.idempiere.process;

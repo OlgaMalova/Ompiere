@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -98,13 +98,13 @@ public class LoggedSessionListener implements HttpSessionListener, ServletContex
 	        boolean started = Adempiere.startup(false);
 	        if(!started)
 	        {
-	            throw new AdempiereException("Could not start iDempiere");
+	            throw new AdempiereException("Could not start Ompiere");
 	        }
         }
 
-        logger.log(Level.OFF, "iDempiere context initialized for " + org.zkoss.zk.Version.RELEASE);
+        logger.log(Level.OFF, "Ompiere context initialized for " + org.zkoss.zk.Version.RELEASE);
         /**
-         * End iDempiere Start
+         * End Ompiere Start
          */
 	}
 	

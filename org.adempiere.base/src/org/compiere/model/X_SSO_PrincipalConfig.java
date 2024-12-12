@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -21,7 +21,7 @@ import java.sql.ResultSet;
 import java.util.Properties;
 
 /** Generated Model for SSO_PrincipalConfig
- *  @author iDempiere (generated)
+ *  @author Ompiere (generated)
  *  @version Release 11 - $Id$ */
 @org.adempiere.base.Model(table="SSO_PrincipalConfig")
 public class X_SSO_PrincipalConfig extends PO implements I_SSO_PrincipalConfig, I_Persistent
@@ -239,16 +239,16 @@ public class X_SSO_PrincipalConfig extends PO implements I_SSO_PrincipalConfig, 
 		return (String)get_Value(COLUMNNAME_SSO_AuthorizationTenantID);
 	}
 
-	/** Set iDempiere Monitor Redirect URIs.
-		@param SSO_IDempMonitorRedirectURIs iDempiere Monitor Redirect URIs
+	/** Set Ompiere Monitor Redirect URIs.
+		@param SSO_IDempMonitorRedirectURIs Ompiere Monitor Redirect URIs
 	*/
 	public void setSSO_IDempMonitorRedirectURIs (String SSO_IDempMonitorRedirectURIs)
 	{
 		set_Value (COLUMNNAME_SSO_IDempMonitorRedirectURIs, SSO_IDempMonitorRedirectURIs);
 	}
 
-	/** Get iDempiere Monitor Redirect URIs.
-		@return iDempiere Monitor Redirect URIs
+	/** Get Ompiere Monitor Redirect URIs.
+		@return Ompiere Monitor Redirect URIs
 	  */
 	public String getSSO_IDempMonitorRedirectURIs()
 	{

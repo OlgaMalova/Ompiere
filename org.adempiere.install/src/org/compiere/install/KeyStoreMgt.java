@@ -315,7 +315,7 @@ public class KeyStoreMgt
 			: System.getProperty("user.name");
 		String o = mgt.organizationUnit != null
 			? mgt.organizationUnit
-			: "iDempiereUser";
+			: "OmpiereUser";
 		String l = mgt.location != null
 			? mgt.location
 			: "MyTown";

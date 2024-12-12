@@ -96,7 +96,7 @@ public class Database
 	/**
 	 *  Get Database adapter by URL string.
 	 *  @param url JDBC connection url
-	 *  @return iDempiere Database Adapter
+	 *  @return Ompiere Database Adapter
 	 */
 	public static AdempiereDatabase getDatabaseFromURL(String url)
 	{

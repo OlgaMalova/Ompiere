@@ -48,8 +48,8 @@ echo Checking Database Size \(3\)
 sqlplus system/"$ADEMPIERE_DB_SYSTEM"@"$ADEMPIERE_DB_NAME" @"$ADEMPIERE_DB_HOME"/CheckDB.sql "$ADEMPIERE_DB_USER"
 
 echo .
-echo "== It is ok for the next to fail before the iDempiere Database Import Step =="
-echo Database Connection Test \(4\) ... iDempiere \(May not work, if not user not yet imported\)
+echo "== It is ok for the next to fail before the Ompiere Database Import Step =="
+echo Database Connection Test \(4\) ... Ompiere \(May not work, if not user not yet imported\)
 sqlplus "$ADEMPIERE_DB_USER"/"$ADEMPIERE_DB_PASSWORD"@"$ADEMPIERE_DB_NAME" @"$ADEMPIERE_DB_HOME"/Test.sql
 
 echo .

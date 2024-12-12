@@ -597,7 +597,7 @@ public final class Ini implements Serializable
 	}   //  isLoaded
 
 	/**
-	 *  Get iDempiere Home from Environment
+	 *  Get Ompiere Home from Environment
 	 *  @return idempiereHome or null
 	 */
 	public static String getAdempiereHome()
@@ -626,7 +626,7 @@ public final class Ini implements Serializable
 	}   //  getAdempiereHome
 
 	/**
-	 *  Set iDempiere Home
+	 *  Set Ompiere Home
 	 *  @param idempiereHome IDEMPIERE_HOME
 	 */
 	public static void setAdempiereHome (String idempiereHome)
@@ -636,7 +636,7 @@ public final class Ini implements Serializable
 	}   //  setAdempiereHome
 
 	/**
-	 * 	Find iDempiere Home
+	 * 	Find Ompiere Home
 	 *	@return idempiere home or null
 	 */
 	public static String findAdempiereHome()

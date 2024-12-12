@@ -53,7 +53,7 @@ import org.compiere.model.MSysConfig;
 import com.sun.mail.smtp.SMTPMessage;
 
 /**
- *	EMail delivery and receive support for iDempiere<br/>
+ *	EMail delivery and receive support for Ompiere<br/>
  *  <p>
  *	Resources:
  *	<li>http://java.sun.com/products/javamail/index.html
@@ -419,7 +419,7 @@ public final class EMail implements Serializable
 			}
 			//
 			m_msg.setSentDate(new java.util.Date());
-			m_msg.setHeader("Comments", "iDempiereMail");
+			m_msg.setHeader("Comments", "OmpiereMail");
 			if (m_acknowledgementReceipt)
 				m_msg.setHeader("Disposition-Notification-To", m_from.getAddress());
 			//	Bounce only header

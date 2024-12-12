@@ -49,7 +49,7 @@ mergefile()
     fi
 
 	TFILE="$(mktemp)" || TFILE="/tmp/idempiereapplications.tmp"
-	sed -n '/<\!\-- iDempiere \-->/,/<\!\-- End of iDempiere \-->/!p' "$MENUFILE" > "$TFILE"
+	sed -n '/<\!\-- Ompiere \-->/,/<\!\-- End of Ompiere \-->/!p' "$MENUFILE" > "$TFILE"
 	cp -f "$TFILE" "$MENUFILE"
 	rm -f "$TFILE"
 }

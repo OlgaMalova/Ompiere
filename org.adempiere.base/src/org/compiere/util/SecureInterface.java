@@ -22,7 +22,7 @@ import java.security.NoSuchAlgorithmException;
 import java.sql.Timestamp;
 
 /**
- * 	iDempiere interface for enryption, decryption.<br/>
+ * 	Ompiere interface for enryption, decryption.<br/>
  * 	To enable your own class, you need to set the property ADEMPIERE_SECURE 
  * 	when starting the client or server.<br/>
  *  The setting for the default class would be:<br/>

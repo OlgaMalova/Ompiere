@@ -2,9 +2,9 @@
 
 grep -RIl "iDempiere" org.adempiere.* org.idempiere.zk.*.theme | grep -v "*.idempiere.*" | xargs sed -i 's/iDempiere/Ompiere/g'
  
-for file in $(find . -type f -name "*idempiereMonitor*" -exec ls -l {} + | awk '{print $9}'); do mv "$file" "${file/idempiereMonitor/ompiereMonitor}"; done
+for file in $(find . -type f -name "*ompiereMonitor*" -exec ls -l {} + | awk '{print $9}'); do mv "$file" "${file/ompiereMonitor/ompiereMonitor}"; done
  
-grep -Rl idempiereMonitor | xargs sed -i 's/idempiereMonitor/ompiereMonitor/g'
+grep -Rl ompiereMonitor | xargs sed -i 's/ompiereMonitor/ompiereMonitor/g'
 
 # HTML file modification
 HTML_FILE="org.adempiere.server/idempiere.jsp"

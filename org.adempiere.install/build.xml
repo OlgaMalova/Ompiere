@@ -55,6 +55,6 @@
 	<!-- Setup (Main)                                         -->
 	<!-- ==================================================== -->
 	<target name="setup" depends="setupJetty"
-		description="Setup iDempiere">
+		description="Setup Ompiere">
 	</target>
 </project>

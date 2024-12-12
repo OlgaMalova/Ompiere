@@ -57,7 +57,7 @@ import org.compiere.db.AdempiereDatabase;
 import org.compiere.db.Database;
 
 /**
- *	iDempiere Cached Row Set Implementation
+ *	Ompiere Cached Row Set Implementation
  *	
  *  @author Jorg Janke
  *  @version $Id: CCachedRowSet.java,v 1.6 2006/07/30 00:54:36 jjanke Exp $
@@ -191,7 +191,7 @@ public class CCachedRowSet implements RowSet, Serializable, Cloneable, CachedRow
 	private static Locale s_loc = null;
 		
 	/**
-	 * 	iDempiere Cached RowSet
+	 * 	Ompiere Cached RowSet
 	 *	@throws java.sql.SQLException
 	 */
 	private CCachedRowSet() throws SQLException

@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: iDempiere Callout
+Bundle-Name: Ompiere Callout
 Bundle-SymbolicName: org.adempiere.base.callout
 Bundle-Version: 12.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-17
@@ -12,5 +12,5 @@ Bundle-ActivationPolicy: lazy
 Export-Package: org.compiere.model
 Bundle-ClassPath: .
 Automatic-Module-Name: org.adempiere.base.callout
-Bundle-Vendor: iDempiere Community
+Bundle-Vendor: Ompiere Community
 Import-Package: org.osgi.service.component.annotations;version="1.5.1"

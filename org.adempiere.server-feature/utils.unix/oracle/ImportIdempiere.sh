@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # $Id: ImportIdempiere.sh,v 1.10 2005/12/20 07:12:17 jjanke Exp $
-echo	iDempiere Database Import		"$Revision": 1.10 $
+echo	Ompiere Database Import		"$Revision": 1.10 $
 
 echo	Importing idempiere DB from "$IDEMPIERE_HOME"/data/seed/Adempiere.dmp
 

@@ -162,9 +162,9 @@ public class WebDoc
 			return;
 		
 		//	css, js
-		m_head.addElement(new link("/resources/css/idempiereMonitor.css", link.REL_STYLESHEET, link.TYPE_CSS));
+		m_head.addElement(new link("/resources/css/ompiereMonitor.css", link.REL_STYLESHEET, link.TYPE_CSS));
 		m_head.addElement(new meta().setHttpEquiv("Content-Type", "text/html; charset=UTF-8"));
-		m_head.addElement(new meta().setName("description", "iDempiere HTML UI"));
+		m_head.addElement(new meta().setName("description", "Ompiere HTML UI"));
 
 		m_table = new table("0", "0", "0", "100%", null);	//	spacing 2
 		m_topRow = new tr();
@@ -180,7 +180,7 @@ public class WebDoc
 		m_topRight = new td().setAlign("right");
 		
 		m_topRight.addElement(new img("/webui/images/header-logo.png")
-			.setAlign(AlignType.RIGHT).setAlt("iDempiere"));
+			.setAlign(AlignType.RIGHT).setAlt("Ompiere"));
 		m_topRow.addElement(m_topRight);
 		m_table.addElement(m_topRow);		
 		//

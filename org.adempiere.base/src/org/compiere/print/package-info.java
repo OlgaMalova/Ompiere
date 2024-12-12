@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -21,6 +21,6 @@
  **********************************************************************/
 
 /**
- * Provide interface and classes for iDempiere reporting engine.
+ * Provide interface and classes for Ompiere reporting engine.
  */
 package org.compiere.print;

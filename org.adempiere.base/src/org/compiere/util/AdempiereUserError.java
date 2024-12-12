@@ -17,7 +17,7 @@
 package org.compiere.util;
 
 /**
- *	iDempiere User Error.<br/>
+ *	Ompiere User Error.<br/>
  *	Caused by (lack of) user input/selection.
  *
  *  @author Jorg Janke

@@ -79,7 +79,7 @@ import org.zkoss.zul.Space;
 import org.zkoss.zul.Vbox;
 
 /**
- * About dialog for iDempiere
+ * About dialog for Ompiere
  * @author Low Heng Sin
  *
  */
@@ -259,8 +259,8 @@ public class AboutWindow extends Window implements EventListener<Event> {
 				levelListBox.setTooltiptext("Set trace level. Warning: this will effect all session not just the current session");
 				levelLabel.setTooltiptext("Set trace level. Warning: this will effect all session not just the current session");
 
-				btnAdempiereLog = new Button("iDempiere Log");
-				btnAdempiereLog.setTooltiptext("Download iDempiere log file from server");
+				btnAdempiereLog = new Button("Ompiere Log");
+				btnAdempiereLog.setTooltiptext("Download Ompiere log file from server");
 				LayoutUtils.addSclass("txt-btn", btnAdempiereLog);
 				btnAdempiereLog.addEventListener(Events.ON_CLICK, this);
 				hbox.appendChild(new Space());
@@ -605,7 +605,7 @@ public class AboutWindow extends Window implements EventListener<Event> {
 	}
 
 	/**
-	 * Download iDempiere log file
+	 * Download Ompiere log file
 	 */
 	private void downloadAdempiereLogFile() {
 		String path = Ini.getAdempiereHome() + File.separator + "log";

@@ -1,5 +1,5 @@
 /***********************************************************************
- * This file is part of iDempiere ERP Open Source                      *
+ * This file is part of Ompiere ERP Open Source                      *
  * http://www.idempiere.org                                            *
  *                                                                     *
  * Copyright (C) Contributors                                          *
@@ -20,6 +20,6 @@
  * MA 02110-1301, USA.                                                 *
  **********************************************************************/
 /**
- * Custom Zk components for iDempiere
+ * Custom Zk components for Ompiere
  */
 package org.adempiere.webui.component;

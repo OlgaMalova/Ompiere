@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: iDempiere Core
+Bundle-Name: Ompiere Core
 Bundle-SymbolicName: org.adempiere.base;singleton:=true
 Bundle-Version: 12.0.0.qualifier
 Bundle-ClassPath: .,
@@ -190,4 +190,4 @@ Require-Bundle: org.eclipse.equinox.app;bundle-version="1.6.300",
  org.apache.logging.log4j.api;bundle-version="2.23.1",
  org.apache.logging.log4j.to.slf4j;bundle-version="2.23.1"
 Automatic-Module-Name: org.adempiere.base
-Bundle-Vendor: iDempiere Community
+Bundle-Vendor: Ompiere Community

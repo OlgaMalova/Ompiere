@@ -7,13 +7,13 @@
 <zk>
 	<!-- idempiere thread session context handler -->
 	<listener>
-		<description>iDempiere WebUI Context management</description>
+		<description>Ompiere WebUI Context management</description>
 		<listener-class>org.adempiere.webui.session.SessionContextListener
 		</listener-class>
 	</listener>
 	
 	<listener>
-		<description>iDempiere Web app init for register handle change in table system configuration</description>
+		<description>Ompiere Web app init for register handle change in table system configuration</description>
     	<listener-class>org.adempiere.webui.DefaultWebAppInit</listener-class>
 	</listener>
 
@@ -132,7 +132,7 @@
     </library-property>
 	<preference>
     	<name>org.zkoss.zk.ui.WebApp.name</name>
-    	<value>iDempiere</value>
+    	<value>Ompiere</value>
 	</preference>
     <library-property>
         <name>org.zkoss.zk.ui.uuidRecycle.disabled</name>

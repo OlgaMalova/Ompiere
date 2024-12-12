@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo	iDempiere Full Database Export 	"$Revision": 1.3 $
+echo	Ompiere Full Database Export 	"$Revision": 1.3 $
 
 # $Id: DBExportFull.sh,v 1.3 2005/01/22 21:59:15 jjanke Exp $
 

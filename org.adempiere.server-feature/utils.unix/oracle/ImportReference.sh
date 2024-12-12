@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # $Id: ImportReference.sh,v 1.5 2005/01/22 21:59:15 jjanke Exp $
-echo	iDempiere Reference Database Import 	"$Revision": 1.5 $
+echo	Ompiere Reference Database Import 	"$Revision": 1.5 $
 
 echo	Importing Reference DB from "$IDEMPIERE_HOME"/data/Reference.dmp
 

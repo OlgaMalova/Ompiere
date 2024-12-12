@@ -2,7 +2,7 @@
 # Copyright (c) 2014 Carlos Ruiz - GlobalQSS
 # All rights reserved.
 #
-# System startup script for iDempiere
+# System startup script for Ompiere
 #
 # LSB compatible service control script; see http://www.linuxbase.org/spec/
 #
@@ -12,7 +12,7 @@
 # Required-Stop:
 # Default-Start:  3 5
 # Default-Stop:
-# Description:    Start the iDempiere server
+# Description:    Start the Ompiere server
 ### END INIT INFO
 
 # initialization
@@ -66,11 +66,11 @@ getidempierestatus() {
 start () {
     getidempierestatus
     if [ $IDEMPIERESTATUS -eq 0 ] ; then
-        echo "iDempiere is already running"
+        echo "Ompiere is already running"
         rc_failed 0
 	return
     fi
-    echo -n "Starting iDempiere ERP: "
+    echo -n "Starting Ompiere ERP: "
     cd $IDEMPIERE_HOME/utils || exit
     export ID_ENV=Server
     . $ENVFILE
@@ -110,11 +110,11 @@ start () {
 stop () {
     getidempierestatus
     if [ $IDEMPIERESTATUS -ne 0 ] ; then
-	echo "iDempiere is already stopped"
+	echo "Ompiere is already stopped"
 	rc_failed 0
 	return
     fi
-    echo -n "Stopping iDempiere ERP: "
+    echo -n "Stopping Ompiere ERP: "
     cd $IDEMPIERE_HOME/utils || exit
     export ID_ENV=Server
     . $ENVFILE
@@ -168,11 +168,11 @@ status () {
     getidempierestatus
     if [ $IDEMPIERESTATUS -eq 0 ] ; then
 	echo
-	echo "iDempiere is running:"
+	echo "Ompiere is running:"
 	ps ax | grep ${IDEMPIERE_HOME} | grep -v grep | sed 's/^[[:space:]]*\([[:digit:]]*\).*:[[:digit:]][[:digit:]][[:space:]]\(.*\)/\1 \2/'
 	echo
     else
-	echo "iDempiere is stopped"
+	echo "Ompiere is stopped"
 	rc_failed 3
     fi
     rc_status -v

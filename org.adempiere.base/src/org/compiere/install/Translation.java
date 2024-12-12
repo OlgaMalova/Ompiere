@@ -88,7 +88,7 @@ public class Translation implements IApplication
 	}
 	
 	/**	DTD						*/
-	public static final String DTD = "<!DOCTYPE idempiereTrl PUBLIC \"-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN\" \"http://www.idempiere.com/dtd/idempiereTrl.dtd\">";
+	public static final String DTD = "<!DOCTYPE idempiereTrl PUBLIC \"-//ComPiere, Inc.//DTD Ompiere Translation 1.0//EN\" \"http://www.idempiere.com/dtd/idempiereTrl.dtd\">";
 	/**	XML Element Tag			*/
 	public static final String	XML_TAG = "idempiereTrl";
 	public static final String	XML_TAG2 = "adempiereTrl";
@@ -220,7 +220,7 @@ public class Translation implements IApplication
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = factory.newDocumentBuilder();
 			//	<!DOCTYPE idempiereTrl SYSTEM "http://www.idempiere.org/dtd/idempiereTrl.dtd">
-			//	<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD iDempiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">
+			//	<!DOCTYPE idempiereTrl PUBLIC "-//ComPiere, Inc.//DTD Ompiere Translation 1.0//EN" "http://www.idempiere.com/dtd/idempiereTrl.dtd">
 			Document document = builder.newDocument();
 			document.appendChild(document.createComment(Adempiere.getSummaryAscii()));
 			document.appendChild(document.createComment(DTD));

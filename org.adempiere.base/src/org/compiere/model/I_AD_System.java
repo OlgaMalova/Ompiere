@@ -1,5 +1,5 @@
 /******************************************************************************
- * Product: iDempiere ERP & CRM Smart Business Solution                       *
+ * Product: Ompiere ERP & CRM Smart Business Solution                       *
  * Copyright (C) 1999-2012 ComPiere, Inc. All Rights Reserved.                *
  * This program is free software, you can redistribute it and/or modify it    *
  * under the terms version 2 of the GNU General Public License as published   *
@@ -21,7 +21,7 @@ import java.sql.Timestamp;
 import org.compiere.util.KeyNamePair;
 
 /** Generated Interface for AD_System
- *  @author iDempiere (generated) 
+ *  @author Ompiere (generated) 
  *  @version Release 11
  */
 public interface I_AD_System 
@@ -474,12 +474,12 @@ public interface I_AD_System
     public static final String COLUMNNAME_SupportExpDate = "SupportExpDate";
 
 	/** Set Support Expires.
-	  * Date when the iDempiere support expires
+	  * Date when the Ompiere support expires
 	  */
 	public void setSupportExpDate (Timestamp SupportExpDate);
 
 	/** Get Support Expires.
-	  * Date when the iDempiere support expires
+	  * Date when the Ompiere support expires
 	  */
 	public Timestamp getSupportExpDate();
 
@@ -487,12 +487,12 @@ public interface I_AD_System
     public static final String COLUMNNAME_SupportUnits = "SupportUnits";
 
 	/** Set Internal Users.
-	  * Number of Internal Users for iDempiere Support
+	  * Number of Internal Users for Ompiere Support
 	  */
 	public void setSupportUnits (int SupportUnits);
 
 	/** Get Internal Users.
-	  * Number of Internal Users for iDempiere Support
+	  * Number of Internal Users for Ompiere Support
 	  */
 	public int getSupportUnits();
 

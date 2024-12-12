@@ -45,7 +45,7 @@ import org.idempiere.distributed.IClusterMember;
 import org.idempiere.distributed.IClusterService;
 
 /**
- *	Contain static methods for iDempiere Log Management.
+ *	Contain static methods for Ompiere Log Management.
  *
  *  @author Jorg Janke
  *  @version $Id: CLogMgt.java,v 1.4 2006/07/30 00:54:36 jjanke Exp $
@@ -547,7 +547,7 @@ public class CLogMgt
 	}   //  printProperties
 
 	/**
-	 *  Get iDempiere System Info
+	 *  Get Ompiere System Info
 	 *  @param sb buffer to append or null
 	 *  @return Info as multiple Line String
 	 */
@@ -572,8 +572,8 @@ public class CLogMgt
 		sb.append(getMsg("ImplementationVendor")).append(eq).append(org.compiere.Adempiere.getImplementationVendor()).append(NL);
 		sb.append(getMsg("ImplementationVersion")).append(eq).append(org.compiere.Adempiere.getImplementationVersion()).append(NL);
 		//
-		sb.append("iDempiereHome = ").append(Adempiere.getAdempiereHome()).append(NL);
-		sb.append("iDempiereProperties = ").append(Ini.getPropertyFileName()).append(NL);
+		sb.append("OmpiereHome = ").append(Adempiere.getAdempiereHome()).append(NL);
+		sb.append("OmpiereProperties = ").append(Ini.getPropertyFileName()).append(NL);
 		sb.append(Env.getLanguage(Env.getCtx())).append(NL);
 		MClient client = MClient.get(Env.getCtx());
 		sb.append(client).append(NL);

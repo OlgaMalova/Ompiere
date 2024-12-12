@@ -20,7 +20,7 @@ if [ "$1" = "debug" ]; then
 fi
 
 echo ===================================
-echo Starting iDempiere Server
+echo Starting Ompiere Server
 echo ===================================
 
 # if don't set from service get default value
@@ -56,6 +56,6 @@ VMOPTS="-Dorg.osgi.framework.bootdelegation=sun.security.ssl
 
 IDEMPIERE_JAVA_OPTIONS=${JAVA_OPTS:-$IDEMPIERE_JAVA_OPTIONS}
 
-echo "Starting iDempiere: $JAVA ${DEBUG} $IDEMPIERE_JAVA_OPTIONS $VMOPTS -jar $BASE/plugins/org.eclipse.equinox.launcher_1.*.jar -application org.adempiere.server.application"
+echo "Starting Ompiere: $JAVA ${DEBUG} $IDEMPIERE_JAVA_OPTIONS $VMOPTS -jar $BASE/plugins/org.eclipse.equinox.launcher_1.*.jar -application org.adempiere.server.application"
 
 $JAVA ${DEBUG} $IDEMPIERE_JAVA_OPTIONS $VMOPTS -jar $BASE/plugins/org.eclipse.equinox.launcher_1.*.jar -application org.adempiere.server.application

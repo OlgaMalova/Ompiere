@@ -3,7 +3,7 @@
 # Author: Carlos Ruiz - globalqss
 # Script to synchronize the database for with latest migration scripts
 
-echo	Synchronize iDempiere Database
+echo	Synchronize Ompiere Database
 
 echo Upgrading database "$1@$ADEMPIERE_DB_NAME"
 

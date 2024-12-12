@@ -40,7 +40,7 @@ import org.zkoss.zk.ui.event.Events;
 import org.zkoss.zk.ui.event.KeyEvent;
 
 /**
- * Abstract base class for iDempiere Web UI custom form (AD_Form).
+ * Abstract base class for Ompiere Web UI custom form (AD_Form).
  *
  * @author Andrew Kimball
  */

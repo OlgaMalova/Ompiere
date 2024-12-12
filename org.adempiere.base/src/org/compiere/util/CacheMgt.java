@@ -38,7 +38,7 @@ import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.Scheduler;
 
 /**
- *  iDempiere global Cache Manager
+ *  Ompiere global Cache Manager
  *
  *  @author Jorg Janke
  *  @version $Id: CacheMgt.java,v 1.2 2006/07/30 00:54:35 jjanke Exp $

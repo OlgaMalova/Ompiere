@@ -114,7 +114,7 @@ public final class BrowserToken {
 	}
 
 	/**
-	 * @return Base 64 encoded iDempiere home path
+	 * @return Base 64 encoded Ompiere home path
 	 * @throws UnsupportedEncodingException
 	 */
 	private static String getHomeToken() throws UnsupportedEncodingException {
