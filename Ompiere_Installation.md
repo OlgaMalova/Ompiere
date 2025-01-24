@@ -13,9 +13,9 @@ In order to run Ompiere, you need to have a JDK (not JRE) version of Java, and a
 
 **Tip:** It is mandatory to use a Unicode character set.
 
-Implementing an Enterprise Resource Planning (ERP) system in your organization can be a smooth process when you follow this Ompiere tutorial. From understanding the basics to customizing for your own needs, it’s a great intro to an excellent system.
+Implementing an Enterprise Resource Planning (ERP) system in your organization can be a smooth process when you follow this Ompiere tutorial. From understanding the basics to customizing for your own needs, itâ€™s a great intro to an excellent system.
 
-- Successfully implement Ompiere—an open-source, company-wide ERP solution—to manage and coordinate all the resources, information, and functions of a business.
+- Successfully implement Ompiereâ€”an open-source, company-wide ERP solutionâ€”to manage and coordinate all the resources, information, and functions of a business.
 - Master data management and centralize the functions of various business departments in an advanced ERP system.
 - Efficiently manage business documents such as purchase/sales orders, material receipts/shipments, and invoices.
 - Extend and customize Ompiere to meet your business needs.
